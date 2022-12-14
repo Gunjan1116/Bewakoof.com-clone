@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #main{
+            
+            height:700px;
+            width:100%;
+            margin:auto;
+            display: flex;
+            justify-content: space-between;
+
+        }
+        #main div{
+           
+            height:auto;
+            width:50%
+
+            
+        }
+
+        #main-1{
+            background-color: rgb(252, 243, 223);
+            
+        }
+        #main-1 h1{
+            margin-top: 40px;
+            padding-left: 60px;
+            margin-bottom: 20%;
+        }
+        #main-2{
+            text-align: center;
+            padding-top: 70px;
+        }
+        #main-2>h3{
+            color:grey
+        }
+        #main-2>div{
+            border:1px solid black;
+            margin-left: 23%;
+            margin-top: 10%;
+            padding: 5px;
+            border-radius: 5px;
+           
+
+        }
+        #main-2>div>input{
+            width:75%;
+            height:50px;
+            border:0px;
+            font-size: 20px;
+           
+        }
+       
+        #main-2>div>select{
+            padding:10px 10px;
+            background-color: rgb(230, 245, 240);
+            border-radius: 5px;
+            border: 0px;
+        }
+#btn-continue{
+    margin-top: 20px;
+    padding:15px 150px;
+    background-color: rgb(111, 185, 190);
+    border: 0px;
+    border-radius: 5px;
+    color:white;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+#btn-email{
+    margin-top: 20px;
+    padding:15px 100px;
+    background-color: white;
+    border:1px solid grey;
+    border-radius: 5px;
+    ;
+    font-size: 20px;
+}
+#main-2 button:hover{
+    cursor:pointer;
+}
+#btn-google{
+
+
+margin-top: 20px;
+    padding:10px 50px;
+    background-color: white;
+    border:1px solid grey;
+    border-radius: 5px;
+    ;
+    font-size: 20px;
+}
+#btn-facebook{
+   margin-left: 10px;
+    margin-top: 20px;
+    padding:10px 50px;
+    background-color: white;
+    border:1px solid grey;
+    border-radius: 5px;
+    ;
+    font-size: 20px;
+}
+#btn-email-image{
+    width:10%;
+    margin-right: 10px;
+ 
+
+}
+#btn-facebook-img{
+    width:15%;
+    margin-right: 15px;
+}
+
+
+
+        </style>
+</head>
+<body>
+    <div id="main">
+        <div id="main-1">
+            <h1>
+                Welcome to the world of Bewakoof!
+            </h1>
+            <img src="https://images.bewakoof.com/web/group-19-1617704502.png"></img>
+        </div>
+        <div id="main-2">
+            <h2>Log in / Sign up</h2>
+            <h3>for Latest trends, exciting offers and everything Bewakoof!</h3>
+            <div id="select-div">
+                <select>
+                    <option>+91</option>
+                    <option>+916</option>
+                    <option>+1</option>
+                    <option>+118</option>
+                    
+
+                </select>
+                <input placeholder="Enter Your Number"> </input>
+                </div>
+               
+                <br>
+                <button id="btn-continue">Continue</button>
+                <hr width="80%">
+                
+
+               <button id="btn-email"> <img src="https://images.bewakoof.com/web/carbon-email-1620039620.png" id="btn-email-image" alt="">Continue with Email</button><br><br>
+               <button id="btn-google"> <img src="https://images.bewakoof.com/web/group-3-2x-1558356035.png" width="15%" margin-left="15px"></img> GOOGLE</button>             
+               <button id="btn-facebook"><img src="https://images.bewakoof.com/web/bi-facebook2x-1620886445.png"  id="btn-facebook-img"></img>Facebook</button>
+            
+        </div>
+    </div>
+    
+</body>
+</html>
+<script>
+    let btn_continue_email=document.querySelector("#btn-email")
+    btn_continue_email.addEventListener("click" ,(e)=>{
+  window.location.href=""
+    })
+    </script>
