@@ -1,0 +1,229 @@
+{
+    "manproduct":[
+        {
+            "title": "Tshirt",
+            "img": "https://images.bewakoof.com/t640/men-s-black-satoru-graphic-printed-oversized-t-shirt-558198-1669998488-1.jpg",
+            "description": "Men's Black Satoru Graphic Printed Oversized T-shirt-Front Bewakoof",
+            "price": 499,
+            "id":1
+        },
+        {
+            "title": "Tshirt",
+            "img": "https://images.bewakoof.com/t640/men-s-black-king-of-wakanda-graphic-printed-oversized-t-shirt-558206-1669998215-1.jpg",
+            "description": "Men's Black King Of Wakanda Graphic Printed Oversized T-shirt-Front Bewakoof",
+            "price": 499,
+            "id":2
+        },
+        {
+            "title": "Tshirt",
+            "img": "https://images.bewakoof.com/t640/2020-emojis-half-sleeve-t-shirt-black-277756-1656157097-1.jpg",
+            "description": "2020 Emojis Half Sleeve T-Shirt Black-Front Bewakoof",
+            "price": 149,
+            "id":3
+        },
+        {
+            "title": "Tshirt",
+            "img": "https://images.bewakoof.com/t640/men-s-white-customizable-oversized-fit-t-shirt-504366-1667506569-1.jpg",
+            "description": "Men's White Customizable Oversized Fit T-shirt-Front Bewakoof",
+            "price": 649,
+            "id":4
+        },
+        {
+            "title": "Tshirt",
+           "img": "https://images.bewakoof.com/t640/men-s-blue-satoru-graphic-printed-t-shirt-558201-1669998049-1.jpg",
+            "description": "Men's Blue Satoru Graphic Printed T-shirt-Front Bewakoof",
+            "price": 399,
+            "id":5
+        },
+        {
+            "title": "Tshirt",
+            "img": "https://images.bewakoof.com/t640/men-ice-water-blue-so-printed-plus-size-t-shirt-541064-1663910516-1.jpg",
+           " description": "Men's Ice Water Blue SO Typography Plus Size T-shirt-Front Bewakoof",
+            "price": 409,
+            "id":6
+        },
+        {
+            "title": "Joggers",
+            "img": "https://images.bewakoof.com/t640/navy-blue-casual-jogger-pant-293071-1655748181-1.jpg",
+            "description": "Shop Men's Blue Casual Joggers-Front",
+            "price": 699,
+            "id":7
+        },
+        {
+            "title": "Joggers",
+            "img": "https://images.bewakoof.com/t640/jet-black-casual-jogger-pant-293063-1660652156-1.jpg",
+            "description": "Men's Black Casual Joggers-Front Bewakoof",
+            "price": 899,
+            "id":8
+        },
+        {
+            "title": "Joggers",
+            "img": "https://images.bewakoof.com/t640/navy-blue-zipper-jogger-321139-1655747796-1.jpg",
+            "description": "Men's Blue Joggers-Front Bewakoof",
+            "price": 899,
+            "id":9
+        },
+        {
+            "title": "Joggers",
+            "img": "https://images.bewakoof.com/t640/dark-olive-casual-cotton-trouser-330854-1663662028-1.jpg",
+            "description": "Dark Olive Casual Cotton Trouser-Front Bewakoof",
+            "price": 799,
+            "id":10
+        },
+        {
+            "title": "Joggers",
+            "img": "https://images.bewakoof.com/t640/sage-green-casual-cotton-trouser-340543-1663661829-1.jpg",
+            "description": "Sage Green Casual Cotton Trouser-Front Bewakoof",
+            "price": 999,
+            "id":11
+        },
+        {
+            "title": "Joggers",
+            "img": "https://images.bewakoof.com/t640/men-s-black-oversized-jogger-516604-1669351564-1.jpg",
+            "description": "Men's Black Oversized Jogger-Front Bewakoof",
+            "price": 1299,
+            "id":12
+        },
+        {
+            "title": "shorts",
+            "img": "https://images.bewakoof.com/t640/moss-green-casual-shorts-293080-1656107949-1.jpg",
+            "description": "Men's Grey Casual Shorts-Front Bewakoof",
+            "price": 549,
+            "id":13
+        },
+        {
+            "title": "shorts",
+            "img": "https://images.bewakoof.com/t640/jet-black-plus-size-casual-shorts-324727-1655748259-1.jpg",
+            "description": "Men's black Casual Shorts-Front Bewakoof",
+            "price": 549,
+            "id":14
+        },
+        {
+            "title": "shorts",
+            "img": "https://images.bewakoof.com/t640/navy-blue-plus-size-casual-shorts-324728-1655748266-1.jpg",
+            "description": "Navy Blue Plus Size Casual Shorts-Front Bewakoof",
+            "price": 649,
+            "id":15
+        },
+        {
+            "title": "shorts",
+            "img": "https://images.bewakoof.com/t640/dark-maroon-casual-shorts-293081-1661433967-1.jpg",
+            "description": "Dark Maroon Casual Shorts-Front Bewakoof",
+            "price": 404,
+            "id":16
+        },
+        {
+            "title": "shorts",
+            "img": "https://images.bewakoof.com/t640/jet-black-casual-shorts-330319-1655747935-1.jpg",
+            "description": "Jet Black Casual Shorts-Front Bewakoof",
+            "price": 494,
+            "id":17
+        },
+        {
+            "title": "shorts",
+            "img": "https://images.bewakoof.com/t640/red-passion-plain-boxer-233080-1661434306-1.jpg",
+            "description": "Red Passion Plain Boxer-Front Bewakoof",
+            "price": 314,
+            "id":18
+        },
+        {
+            "title": "Hoodie",
+            "img": "https://images.bewakoof.com/t640/men-s-black-king-of-wakanda-graphic-printed-hoodie-558220-1670418471-1.jpg",
+            "description": "Men's Black King Of Wakanda Graphic Printed Hoodie-Front Bewakoof",
+            "price": 1399,
+            "id":19
+        },
+        {
+            "title": "Hoodie",
+            "img": "https://images.bewakoof.com/t640/men-s-black-satoru-graphic-printed-oversized-sweatshirt-558216-1669998172-1.jpg",
+            "description": "Men's Black Satoru Graphic Printed Oversized Hoodie Sweatshirt-Front Bewakoof",
+            "price": 1599,
+            "id":20
+        },
+        {
+            "title": "Hoodie",
+            "img": "https://images.bewakoof.com/t640/blue-quartz-color-block-hoodie-sweatshirt-392783-1656146344-1.jpg",
+            "description": "Men's Blue & Yellow Color Block Hoodie-Front Bewakoof",
+            "price": 1149,
+            "id":21
+        },
+        {
+            "title": "Hoodie",
+            "img": "https://images.bewakoof.com/t640/men-s-off-white-solid-oversized-hoodie-499058-1670329186-1.jpg",
+            "description": "Men's Gardenia Oversized Hoodie-Front Bewakoof",
+            "price": 1399,
+            "id":22
+        },
+        {
+            "title": "Long Kurta",
+            "img": "https://images.bewakoof.com/t640/men-s-solid-plum-purple-long-kurta-502498-1663931405-1.jpg",
+            "description": "Men's Plum Purple Relaxed Fit Long Kurta-Front Bewakoof",
+            "price": 619,
+            "id":23
+        },
+        {
+            "title": "Long Kurta",
+            "img": "https://images.bewakoof.com/t640/men-s-mandarin-collar-festive-long-kurta-415379-1656155215-1.jpg",
+            "description": "Men's Orange Mandarin Collar Relaxed Fit Festive Long Kurta-Front Bewakoof",
+            "price": 334,
+            "id":24
+        },
+        {
+            "title": "Long Kurta",
+            "img": "https://images.bewakoof.com/t640/men-s-plus-size-moonlit-ocean-short-kurta-504183-1665064914-1.jpg",
+            "description": "Men's Moonlit Ocean Plus Size Relaxed Fit Short Kurta-Front Bewakoof",
+            "price": 659,
+            "id":25
+        },
+        {
+            "title": "Long Kurta",
+            "img": "https://images.bewakoof.com/t640/men-s-mustard-relaxed-fit-long-kurta-317794-1663931527-1.jpg",
+            "description": "Men's Mustard Relaxed Fit Long Kurta-Front Bewakoof",
+            "price": 764,
+            "id":26
+        },
+        {
+            "title": "Jeans",
+            "img": "https://images.bewakoof.com/t640/men-s-blue-washed-slim-fit-jeans-558082-1669896925-1.JPG",
+            "description": "Men's Blue Washed Slim Fit Jeans-Front Bewakoof",
+            "price": 1163,
+            "id":27
+        },
+        {
+            "title": "Jeans",
+            "img": "https://images.bewakoof.com/t640/men-s-blue-washed-slim-fit-jeans-558168-1669974575-1.jpg",
+            "description": "Men's Blue Washed Slim Fit Jeans-Front Bewakoof",
+            "price": 1300,
+            "id":28
+        },
+        {
+            "title": "Jeans",
+            "img": "https://images.bewakoof.com/t640/men-s-grey-washed-skinny-fit-jeans-558072-1669895801-1.jpg",
+            "description": "Men's Grey Washed Skinny Fit Jeans-Front Bewakoof",
+            "price": 1163,
+            "id":29
+        },
+        {
+            "title": "Jeans",
+            "img": "https://images.bewakoof.com/t640/men-s-black-slim-fit-jeans-558185-1669973372-1.jpg",
+            "description": "Men's Black Slim Fit Jeans-Front Bewakoof",
+            "price": 1250,
+            "id":30
+        },
+        {
+            "title": "Jeans",
+            "img": "https://images.bewakoof.com/t640/men-s-blue-washed-skinny-fit-jeans-558061-1669895410-1.jpg",
+            "description": "Men's Blue Washed Skinny Fit Jeans-Front Bewakoof",
+            "price": 1200,
+            "id":31
+        },
+        {
+            "title": "Jeans",
+            "img": "https://images.bewakoof.com/t640/men-s-blue-distressed-slim-fit-jeans-558174-1669974264-1.JPG",
+            "description": "Men's Blue Distressed Slim Fit Jeans-Front Bewakoof",
+            "price": 1429,
+            "id":32
+        }
+    
+    ]
+}
