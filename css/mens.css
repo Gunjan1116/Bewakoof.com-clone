@@ -1,0 +1,94 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+} */
+#manclothingheading u{
+    text-decoration: underline solid rgba(233, 229, 7, 0.993) 13%;
+}
+#parentofCart{
+    display: flex;
+}
+#filterdiv{
+    border: 1px solid blue;
+    width: 23%;
+    height: 800px;
+   
+    padding: 20px;
+   
+
+}
+   #parentofCart :nth-child(2){
+    margin-right:20px;
+   }
+
+/* Filter Section Css start here */
+
+
+
+/* Filter Section Css  here */
+
+  /* Cart Section CSS */
+#cartdiv{
+    border: 1px solid green;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width:70%;
+    margin: auto;
+    gap: 10px;
+    text-align: center;
+ 
+   }
+   #cartdiv img{
+     width: 100%;
+   }
+   #cartdiv button{
+     padding: 5px 15px;
+    
+     background-color: rgb(187, 180, 180);
+     border: none;
+     border-radius: 5px;
+     
+   }
+   #cartdiv button:hover{
+     
+     background-color: rgb(105, 103, 103);
+   }
+   #cartdiv div{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   }
+   .parentcart{
+     padding: 10px;
+   }
+   
+   /* cart Section CSS End here */
+
+   #Category{
+    padding: 10px 80px;
+    font-size: 19px;
+    border:none;
+   }
+   #Size{
+    padding: 10px 80px;
+    font-size: 20px;
+    border:none;
+   }
+   #brand{
+    padding: 10px 80px;
+    font-size: 20px;
+    border:none;
+   }
+   #Design{
+    padding: 10px 80px;
+    font-size: 20px;
+    border:none;
+   }
+option{
+    font-size: 18px;
+}
+select{
+    font-size: 18px;
+}
+  
+   
+   
+   
