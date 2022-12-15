@@ -2,9 +2,7 @@
     margin: 0px;
     padding: 0px;
 } */
-body{
-  background-color: rgba(255, 255, 255, 0.753);
-}
+
 #manclothingheading u{
     text-decoration: underline solid rgba(233, 229, 7, 0.993) 13%;
 }
@@ -12,13 +10,14 @@ body{
     display: flex;
 }
 #filterdiv{
-    border: 1px solid blue;
+     border: 1px solid blue; 
     width: 23%;
-    height: 800px;
-   
+    height: auto;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     padding: 20px;
-   
-
+   border-radius: 9px;
+   margin-left: 10px;
+   cursor: pointer;
 }
    #parentofCart :nth-child(2){
     margin-right:20px;
@@ -32,29 +31,40 @@ body{
 
   /* Cart Section CSS */
 #cartdiv{
-    border: 1px solid green;
+    /* border: 1px solid green; */
     display: grid;
     grid-template-columns: repeat(3,1fr);
     width:70%;
     margin: auto;
     gap: 10px;
     text-align: center;
+    
+ 
+   }
+
+  
+#cartdiv div{
+    
+  border-radius: 10px;
+    
  
    }
    #cartdiv img{
      width: 100%;
+     border-radius: 5px;
+     cursor: pointer;
    }
    #cartdiv button{
-     padding: 5px 15px;
+     padding: 10px 50px;
     
-     background-color: rgb(187, 180, 180);
+     background-color: rgb(112, 198, 238);
      border: none;
-     border-radius: 5px;
+     border-radius: 2px;
      
    }
    #cartdiv button:hover{
-     
-     background-color: rgb(105, 103, 103);
+     cursor: pointer;
+     background-color: rgb(159, 184, 190);
    }
    #cartdiv div{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -71,6 +81,11 @@ body{
     border:none;
    }
    #Size{
+    padding: 10px 80px;
+    font-size: 20px;
+    border:none;
+   }
+   #Sizes{
     padding: 10px 80px;
     font-size: 20px;
     border:none;
@@ -92,6 +107,6 @@ select{
     font-size: 18px;
 }
   
-   
+ 
    
    

@@ -28,9 +28,9 @@ function display(data) {
   
   
     <h4><strong>${item.title}</strong></h4>
-    <p>₹${item.price}</p>
+    <p>  ₹${item.price} </p>
      <p>${item.description}</p>
-     <button id="cart">add to cart</button>
+     <button id="cart">Add to Cart</button>
   
 </div>
        
@@ -39,6 +39,7 @@ function display(data) {
 
     })
     Renderdiv.innerHTML = responsedata.join("")
+   
 }
 
 
@@ -77,6 +78,7 @@ function handleSort() {
     } else if (pricesortdata == "Price") {
         location.reload();
     }
+  
     display(bag)
 
 
@@ -87,7 +89,7 @@ function handleSort() {
 async function getdata1() {
     let newdata = await fetch("http://localhost:3000/manproduct");
     let product = await newdata.json();
-
+  
     return product
 }
 
