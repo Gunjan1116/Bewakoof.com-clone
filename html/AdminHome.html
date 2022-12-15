@@ -10,28 +10,42 @@
 <body>
     <div id="main-container">
         <div id="add-container">
-            <h2 class="pro-header">Add New Product For Men</h2>
+            <h2 class="pro-header">Add Product For Men</h2>
             <form id="add-men" action="">
-                <input class="inPut" id="title" type="text" placeholder="product title">
-                <input class="inPut" id="img" type="text" placeholder="product image">
-                <input class="inPut" id="description" type="text" placeholder="product description">
-                <input class="inPut" id="price" type="number" placeholder="product price">
-                <input class="inPut" id="id" type="number" placeholder="product id">
+                <input class="inPut M" id="title" type="text" placeholder="product title" required>
+                <input class="inPut M" id="img" type="text" placeholder="product image" required>
+                <input class="inPut M" id="description" type="text" placeholder="product description" required>
+                <input class="inPut M" id="price" type="number" placeholder="product price" required>
                 <input class="inPut submit-btn" id="men-btn" type="submit">
             </form>
             <hr>
-            <h2 class="pro-header">Add New Product For Women</h2>
+            <h2 class="pro-header">Add Product For Women</h2>
             <form id="add-women" action="">
-                <input class="inPut" id="title" type="text" placeholder="product title">
-                <input class="inPut" id="img" type="text" placeholder="product image">
-                <input class="inPut" id="description" type="text" placeholder="product description">
-                <input class="inPut" id="price" type="number" placeholder="product price">
-                <input class="inPut" id="id" type="number" placeholder="product id">
+                <input class="inPut F" id="title" type="text" placeholder="product title" required>
+                <input class="inPut F" id="img" type="text" placeholder="product image" required>
+                <input class="inPut F" id="description" type="text" placeholder="product description" required>
+                <input class="inPut F" id="price" type="number" placeholder="product price" required>
                 <input class="inPut submit-btn" id="women-btn" type="submit">
             </form>
             <hr>
+            <button class="get-product-btn" id="get-women-btn">Get All Women's Products</button>
+            <button class="get-product-btn" id="get-men-btn">Get All Men's Products</button>
         </div>
-        <div id="display-container"></div>
+        <div id="render-container">
+            <!-- <div class="product-box">
+                <img class="image" src="https://images.bewakoof.com/t640/women-s-printed-long-kurti-dress-364703-1656167894-1.jpg" alt="">
+                <div class="content">
+                    <h4 class="title">Kurti</h4>
+                    <p class="description">Women's Printed Long Kurti Dress-Front Bewakoof</p>
+                    <p class="price">334</p>
+                    <button class="edit box-btn">EDIT</button>
+                    <button class="delete box-btn">DELETE</button>
+                </div>
+            </div> -->
+            <div id="display-container"></div>
+            <div class="pagination-wrapper" id="pagination-wrapper">Pagination</div>
+        </div>
+        
     </div>
 
 </body>
