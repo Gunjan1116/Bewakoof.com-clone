@@ -1,5 +1,10 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
 #main-container{
-    width:98%;
+    width:100%;
     height:auto;
     border:1px solid red;
     margin: auto;
@@ -11,17 +16,13 @@
     text-align: center;
     margin:auto;
     height:100%;
-    width:33%;
+    width:32%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding:1%;
 }
 
-#display-container{
-    height: 1000px;
-    width:66%;
-    margin: auto;
-    border:1px solid blue;
-}
 .inPut{
-    width:100%;
+    width:97%;
     padding:10px 0px;
     margin-bottom: 15px;
     font-size: 16px;
@@ -32,9 +33,92 @@
     color:white;
     background-color: rgb(90, 90, 91);
 }
+.submit-btn:hover{
+    cursor: pointer;
+    background-color: rgb(131, 131, 131);
+}
+
+.get-product-btn{
+    width:100%;
+    padding:10px 0px;
+    margin-top: 20px;
+    font-size: 16px;
+    border:none;
+    color:white;
+    background-color: rgb(90, 90, 91);
+}
+.get-product-btn:hover{
+    cursor: pointer;
+    background-color: rgb(131, 131, 131);
+}
 
 .pro-header{
     font-size: 30px;
     font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 300;
+    margin:25px 0px;
 }
+
+#render-container{
+    height: auto;
+    width:65%;
+    margin: auto;
+    border:2px solid rgb(24, 255, 24);
+}
+
+#display-container{
+    height: auto;
+    width:95%;
+    margin: auto;
+    border:1px solid blue;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+    padding:20px;
+    text-align: center;
+}
+
+.product-box{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.image{
+    width:100%;
+}
+
+.content{
+    padding:10px;
+}
+
+.title{
+    font-size: 20px;
+    font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.description,.price,.pro-id{
+    font-size: 16px;
+    font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-bottom: 8px;
+    color:rgb(82, 80, 80);
+}
+
+/* .description{
+    height:90px;
+} */
+
+.box-btn{
+    width:80%;
+    margin-bottom:10px;
+    padding: 5px 0px;
+    border:none;
+    background-color: rgb(133, 8, 8);
+    color:white;
+}
+
+.box-btn:hover{
+    cursor: pointer;
+    background-color: rgb(186, 98, 98);
+}
+
