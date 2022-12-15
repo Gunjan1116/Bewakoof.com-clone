@@ -235,6 +235,13 @@
   "Womensproduct": [
     {
       "title": "Tshirt",
+      "img": "https://images.bewakoof.com/t640/women-s-black-son-of-white-fang-graphic-printed-boyfriend-t-shirt-559343-1670598214-1.jpg",
+      "description": "Women's Black Son of White Fang Graphic Printed Boyfriend T-shirt-Front Bewakoof",
+      "price": 329,
+      "id": 1
+    },
+    {
+      "title": "Tshirt",
       "img": "https://images.bewakoof.com/t640/women-s-brown-son-of-white-fang-graphic-printed-oversized-t-shirt-559351-1670598369-1.jpg",
       "description": "Women's Brown Son of White Fang Graphic Printed Oversized T-shirt-Front Bewakoof",
       "price": 449,
@@ -368,6 +375,13 @@
     },
     {
       "title": "Jeans",
+      "img": "https://images.bewakoof.com/t640/freakins-women-blue-solid-flared-jeans-451913-1655917820-1.jpg",
+      "description": "Freakins Women Blue Solid Flared Jeans-Front Bewakoof",
+      "price": 1499,
+      "id": 21
+    },
+    {
+      "title": "Jeans",
       "img": "https://images.bewakoof.com/t640/women-s-blue-straight-fit-jeans-555194-1668674389-1.jpg",
       "description": "Women's Blue Straight Fit Jeans-Front Bewakoof",
       "price": 1424,
@@ -477,8 +491,8 @@
       "description": "Women's All Over Printed Kurti Dress-Front Bewakoof",
       "price": 532,
       "id": 37
-    },
-    {
+    }
+     {
       "title": "Tshirt",
       "img": "https://images.bewakoof.com/t1080/women-s-green-agents-graphic-printed-oversized-t-shirt-559344-1670604335-1.jpg",
       "description": "Women's Green Agents Typography Oversized T-shirt",
@@ -491,6 +505,55 @@
       "description": "Women's Black Do More Typography Hoodie",
       "price": "1799",
       "id": 40
+  ],
+  "userAddressDetails": [
+    {
+      "id": 1,
+      "countryName": "India",
+      "fullName": "Nikhil Kumar",
+      "mobileNo": 9999999999,
+      "pinCode": 123456,
+      "city": "jamshedpur",
+      "state": "jharkhand",
+      "flatNo": 12,
+      "area": "Manago",
+      "landmark": "Near bus stand"
+    },
+    {
+      "country": "India",
+      "firstname": "Rakesh Kumar",
+      "mobileNo": "2222222222",
+      "pinCode": "123456",
+      "city": "Patna",
+      "state": "Bihar",
+      "flatNo": "12",
+      "area": "Dimna",
+      "landmark": "Near School",
+      "id": 2
+    },
+    {
+      "country": "India",
+      "firstname": "Nitin Kumar",
+      "mobileNo": "8888888888",
+      "pinCode": "345678",
+      "city": "Patna",
+      "state": "Bihar",
+      "flatNo": "12",
+      "area": "Dimna",
+      "landmark": "Near School",
+      "id": 3
+    },
+    {
+      "country": "India",
+      "firstname": "Jishnu Raj",
+      "mobileNo": "123456789",
+      "pinCode": "123456",
+      "city": "Kottyama",
+      "state": "Kerala",
+      "flatNo": "12",
+      "area": "Railway Station",
+      "landmark": "Bus Stand",
+      "id": 4
     }
   ]
 }
