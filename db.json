@@ -491,7 +491,7 @@
       "description": "Women's All Over Printed Kurti Dress-Front Bewakoof",
       "price": 532,
       "id": 37
-    }
+    },
      {
       "title": "Tshirt",
       "img": "https://images.bewakoof.com/t1080/women-s-green-agents-graphic-printed-oversized-t-shirt-559344-1670604335-1.jpg",
@@ -505,6 +505,7 @@
       "description": "Women's Black Do More Typography Hoodie",
       "price": "1799",
       "id": 40
+    }
   ],
   "userAddressDetails": [
     {

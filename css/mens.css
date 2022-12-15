@@ -1,7 +1,7 @@
-/* *{
-    margin: 0px;
+*{
+    margin: 5px;
     padding: 0px;
-} */
+}
 #manclothingheading u{
     text-decoration: underline solid rgba(233, 229, 7, 0.993) 13%;
 }
@@ -40,6 +40,7 @@
    }
    #cartdiv img{
      width: 100%;
+     
      cursor: pointer;
    }
    #cartdiv button{
@@ -56,7 +57,14 @@
    }
    #cartdiv div{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
    }
+   
+    
+   
+      
+   
+ 
    .parentcart{
      padding: 10px;
    }
