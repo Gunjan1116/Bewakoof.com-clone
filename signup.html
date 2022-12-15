@@ -8,7 +8,7 @@
     <style>
         #main{
             
-            height:700px;
+            height:200px;
             width:100%;
             margin:auto;
             display: flex;
@@ -115,7 +115,9 @@ margin-top: 20px;
     width:15%;
     margin-right: 15px;
 }
-
+*:focus{
+ outline: none;
+}
 
 
         </style>
@@ -140,11 +142,11 @@ margin-top: 20px;
                     
 
                 </select>
-                <input placeholder="Enter Your Number"> </input>
+                <input placeholder="Enter Your Number" id="number" type="tel"  pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" maxlength="10" required> </input>
                 </div>
                
                 <br>
-                <button id="btn-continue">Continue</button>
+                <button id="btn-continue" onclick="signup_page()">Continue</button>
                 <hr width="80%">
                 
 
@@ -160,6 +162,17 @@ margin-top: 20px;
 <script>
     let btn_continue_email=document.querySelector("#btn-email")
     btn_continue_email.addEventListener("click" ,(e)=>{
-  window.location.href=""
+  window.location.href="emailsignup.html"
     })
+function signup_page(){
+    let num=document.getElementById("number").value
+    localStorage.setItem("my_num",JSON.stringify(num))
+    if(num.length==10){
+        window.location.href="signup2.html"
+    }else{
+        alert("please fill your mobile number")
+    }
+   
+}
+    
     </script>

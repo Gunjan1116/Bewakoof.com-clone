@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color:rgb(252, 243, 223)
+        }
+        #signup-main{
+          padding: 30px;
+            height:auto;
+            width: 70%;
+            display: flex;
+            background-color:rgb(252, 243, 223);
+            margin: auto;
+           /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;; */
+           box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+        }
+        #signup-main>div{
+          
+            
+            width:45%;
+            margin: auto;
+
+        }
+        #signup-main>div>img{
+            width:75%;
+            margin-left: 10%;
+            
+        }
+        #signup-main>div:nth-child(2) {
+            padding: 10px 40px;
+            background-color: white;
+            width: 45%;
+           
+        }
+        #signup-main>div:nth-child(2) input{
+            padding: 15px 50px;
+            border-left: 0px;
+            border-top: 0px;
+            border-right: 0px;
+            margin-bottom: 30px;
+            font-size: 20px;
+        }
+        #sign_up{
+            padding: 15px 200px;
+            background-color: gray;
+            color:white;
+            border: 0px;
+            border-radius: 5px;
+        }
+        *:focus{
+ outline: none;
+}
+
+#show_num{
+    /* border: 1px solid black; */
+    display: flex;
+    gap: 10px;
+    border-bottom: 1px solid black;
+    width: 75%;
+    margin-bottom: 20px;
+
+}
+#show_num>img{
+    width: 7%;
+    height: 7%;
+    margin-top: 20px;
+}
+        </style>
+
+</head>
+<body>
+    <div id="signup-main">
+        <div>
+            <img src="https://images.bewakoof.com/web/desktop-sign-up-banner--1623760676.png" alt="">
+        </div>
+        <div id="form-signup">
+            <h1>Sign Up</h1>
+            <h2>Hi new buddy, let's get you started <br>with the bewakoofi!</h2>
+            <form id="store_data">
+                
+                <input type="text" id="user_name" placeholder="Name" required></input><br>
+                <div id="show_num">
+                    <img src="https://images.bewakoof.com/web/india-flag-round-1639566913.png" alt=""><h2>+91</h2>
+                    <h2 id="user_number"></h2><br></div>
+                    <line></line>
+                
+                <input type="" id="user_mail" placeholder="Email" required></p><br>
+                <input type="password" id="user_password" placeholder="Password" required></input><br>
+                <input type = "checkbox"> I want to receive order updates on Whatsapp</input><br>
+                <input type="submit" id="sign_up" value="PROCEED"></input><br>
+    
+    
+                </form>
+        </div>
+    </div>
+</body>
+</html>
+<script>
+    let get_num= JSON.parse(localStorage.getItem("my_num"))
+console.log(get_num)
+   
+document.getElementById("user_number").innerHTML=get_num
+
+
+var signupArr = JSON.parse(localStorage.getItem("saveSignup")) || [] ; 
+
+ document.querySelector("form").addEventListener("submit",myFunction);
+
+ function myFunction(){
+
+event.preventDefault();
+
+let user_Obj = {
+
+Name: document.getElementById("user_name").value,
+Number: document.getElementById("user_number").innerHTML=get_num,
+email: document.getElementById("user_mail").value,
+password: document.getElementById("user_password").value,
+
+}
+signupArr.push(user_Obj)
+
+localStorage.setItem("saveSignup",JSON.stringify(signupArr)) ;
+                        
+
+
+    } 
+                
+
+
+</script>
