@@ -1,492 +1,539 @@
 {
-    "manproduct":[
-        {
-            "title": "Tshirt",
-            "img": "https://images.bewakoof.com/t640/men-s-black-satoru-graphic-printed-oversized-t-shirt-558198-1669998488-1.jpg",
-            "description": "Men's Black Satoru Graphic Printed Oversized T-shirt-Front Bewakoof",
-            "price": 499,
-            "id":1
-        },
-        {
-            "title": "Tshirt",
-            "img": "https://images.bewakoof.com/t640/men-s-black-king-of-wakanda-graphic-printed-oversized-t-shirt-558206-1669998215-1.jpg",
-            "description": "Men's Black King Of Wakanda Graphic Printed Oversized T-shirt-Front Bewakoof",
-            "price": 499,
-            "id":2
-        },
-        {
-            "title": "Tshirt",
-            "img": "https://images.bewakoof.com/t640/2020-emojis-half-sleeve-t-shirt-black-277756-1656157097-1.jpg",
-            "description": "2020 Emojis Half Sleeve T-Shirt Black-Front Bewakoof",
-            "price": 149,
-            "id":3
-        },
-        {
-            "title": "Tshirt",
-            "img": "https://images.bewakoof.com/t640/men-s-white-customizable-oversized-fit-t-shirt-504366-1667506569-1.jpg",
-            "description": "Men's White Customizable Oversized Fit T-shirt-Front Bewakoof",
-            "price": 649,
-            "id":4
-        },
-        {
-            "title": "Tshirt",
-           "img": "https://images.bewakoof.com/t640/men-s-blue-satoru-graphic-printed-t-shirt-558201-1669998049-1.jpg",
-            "description": "Men's Blue Satoru Graphic Printed T-shirt-Front Bewakoof",
-            "price": 399,
-            "id":5
-        },
-        {
-            "title": "Tshirt",
-            "img": "https://images.bewakoof.com/t640/men-ice-water-blue-so-printed-plus-size-t-shirt-541064-1663910516-1.jpg",
-           "description": "Men's Ice Water Blue SO Typography Plus Size T-shirt-Front Bewakoof",
-            "price": 409,
-            "id":6
-        },
-        {
-            "title": "Joggers",
-            "img": "https://images.bewakoof.com/t640/navy-blue-casual-jogger-pant-293071-1655748181-1.jpg",
-            "description": "Shop Men's Blue Casual Joggers-Front",
-            "price": 699,
-            "id":7
-        },
-        {
-            "title": "Joggers",
-            "img": "https://images.bewakoof.com/t640/jet-black-casual-jogger-pant-293063-1660652156-1.jpg",
-            "description": "Men's Black Casual Joggers-Front Bewakoof",
-            "price": 899,
-            "id":8
-        },
-        {
-            "title": "Joggers",
-            "img": "https://images.bewakoof.com/t640/navy-blue-zipper-jogger-321139-1655747796-1.jpg",
-            "description": "Men's Blue Joggers-Front Bewakoof",
-            "price": 899,
-            "id":9
-        },
-        {
-            "title": "Joggers",
-            "img": "https://images.bewakoof.com/t640/dark-olive-casual-cotton-trouser-330854-1663662028-1.jpg",
-            "description": "Dark Olive Casual Cotton Trouser-Front Bewakoof",
-            "price": 799,
-            "id":10
-        },
-        {
-            "title": "Joggers",
-            "img": "https://images.bewakoof.com/t640/sage-green-casual-cotton-trouser-340543-1663661829-1.jpg",
-            "description": "Sage Green Casual Cotton Trouser-Front Bewakoof",
-            "price": 999,
-            "id":11
-        },
-        {
-            "title": "Joggers",
-            "img": "https://images.bewakoof.com/t640/men-s-black-oversized-jogger-516604-1669351564-1.jpg",
-            "description": "Men's Black Oversized Jogger-Front Bewakoof",
-            "price": 1299,
-            "id":12
-        },
-        {
-            "title": "shorts",
-            "img": "https://images.bewakoof.com/t640/moss-green-casual-shorts-293080-1656107949-1.jpg",
-            "description": "Men's Grey Casual Shorts-Front Bewakoof",
-            "price": 549,
-            "id":13
-        },
-        {
-            "title": "shorts",
-            "img": "https://images.bewakoof.com/t640/jet-black-plus-size-casual-shorts-324727-1655748259-1.jpg",
-            "description": "Men's black Casual Shorts-Front Bewakoof",
-            "price": 549,
-            "id":14
-        },
-        {
-            "title": "shorts",
-            "img": "https://images.bewakoof.com/t640/navy-blue-plus-size-casual-shorts-324728-1655748266-1.jpg",
-            "description": "Navy Blue Plus Size Casual Shorts-Front Bewakoof",
-            "price": 649,
-            "id":15
-        },
-        {
-            "title": "shorts",
-            "img": "https://images.bewakoof.com/t640/dark-maroon-casual-shorts-293081-1661433967-1.jpg",
-            "description": "Dark Maroon Casual Shorts-Front Bewakoof",
-            "price": 404,
-            "id":16
-        },
-        {
-            "title": "shorts",
-            "img": "https://images.bewakoof.com/t640/jet-black-casual-shorts-330319-1655747935-1.jpg",
-            "description": "Jet Black Casual Shorts-Front Bewakoof",
-            "price": 494,
-            "id":17
-        },
-        {
-            "title": "shorts",
-            "img": "https://images.bewakoof.com/t640/red-passion-plain-boxer-233080-1661434306-1.jpg",
-            "description": "Red Passion Plain Boxer-Front Bewakoof",
-            "price": 314,
-            "id":18
-        },
-        {
-            "title": "Hoodie",
-            "img": "https://images.bewakoof.com/t640/men-s-black-king-of-wakanda-graphic-printed-hoodie-558220-1670418471-1.jpg",
-            "description": "Men's Black King Of Wakanda Graphic Printed Hoodie-Front Bewakoof",
-            "price": 1399,
-            "id":19
-        },
-        {
-            "title": "Hoodie",
-            "img": "https://images.bewakoof.com/t640/men-s-black-satoru-graphic-printed-oversized-sweatshirt-558216-1669998172-1.jpg",
-            "description": "Men's Black Satoru Graphic Printed Oversized Hoodie Sweatshirt-Front Bewakoof",
-            "price": 1599,
-            "id":20
-        },
-        {
-            "title": "Hoodie",
-            "img": "https://images.bewakoof.com/t640/blue-quartz-color-block-hoodie-sweatshirt-392783-1656146344-1.jpg",
-            "description": "Men's Blue & Yellow Color Block Hoodie-Front Bewakoof",
-            "price": 1149,
-            "id":21
-        },
-        {
-            "title": "Hoodie",
-            "img": "https://images.bewakoof.com/t640/men-s-off-white-solid-oversized-hoodie-499058-1670329186-1.jpg",
-            "description": "Men's Gardenia Oversized Hoodie-Front Bewakoof",
-            "price": 1399,
-            "id":22
-        },
-        {
-            "title": "Long Kurta",
-            "img": "https://images.bewakoof.com/t640/men-s-solid-plum-purple-long-kurta-502498-1663931405-1.jpg",
-            "description": "Men's Plum Purple Relaxed Fit Long Kurta-Front Bewakoof",
-            "price": 619,
-            "id":23
-        },
-        {
-            "title": "Long Kurta",
-            "img": "https://images.bewakoof.com/t640/men-s-mandarin-collar-festive-long-kurta-415379-1656155215-1.jpg",
-            "description": "Men's Orange Mandarin Collar Relaxed Fit Festive Long Kurta-Front Bewakoof",
-            "price": 334,
-            "id":24
-        },
-        {
-            "title": "Long Kurta",
-            "img": "https://images.bewakoof.com/t640/men-s-plus-size-moonlit-ocean-short-kurta-504183-1665064914-1.jpg",
-            "description": "Men's Moonlit Ocean Plus Size Relaxed Fit Short Kurta-Front Bewakoof",
-            "price": 659,
-            "id":25
-        },
-        {
-            "title": "Long Kurta",
-            "img": "https://images.bewakoof.com/t640/men-s-mustard-relaxed-fit-long-kurta-317794-1663931527-1.jpg",
-            "description": "Men's Mustard Relaxed Fit Long Kurta-Front Bewakoof",
-            "price": 764,
-            "id":26
-        },
-        {
-            "title": "Jeans",
-            "img": "https://images.bewakoof.com/t640/men-s-blue-washed-slim-fit-jeans-558082-1669896925-1.JPG",
-            "description": "Men's Blue Washed Slim Fit Jeans-Front Bewakoof",
-            "price": 1163,
-            "id":27
-        },
-        {
-            "title": "Jeans",
-            "img": "https://images.bewakoof.com/t640/men-s-blue-washed-slim-fit-jeans-558168-1669974575-1.jpg",
-            "description": "Men's Blue Washed Slim Fit Jeans-Front Bewakoof",
-            "price": 1300,
-            "id":28
-        },
-        {
-            "title": "Jeans",
-            "img": "https://images.bewakoof.com/t640/men-s-grey-washed-skinny-fit-jeans-558072-1669895801-1.jpg",
-            "description": "Men's Grey Washed Skinny Fit Jeans-Front Bewakoof",
-            "price": 1163,
-            "id":29
-        },
-        {
-            "title": "Jeans",
-            "img": "https://images.bewakoof.com/t640/men-s-black-slim-fit-jeans-558185-1669973372-1.jpg",
-            "description": "Men's Black Slim Fit Jeans-Front Bewakoof",
-            "price": 1250,
-            "id":30
-        },
-        {
-            "title": "Jeans",
-            "img": "https://images.bewakoof.com/t640/men-s-blue-washed-skinny-fit-jeans-558061-1669895410-1.jpg",
-            "description": "Men's Blue Washed Skinny Fit Jeans-Front Bewakoof",
-            "price": 1200,
-            "id":31
-        },
-        {
-            "title": "Jeans",
-            "img": "https://images.bewakoof.com/t640/men-s-blue-distressed-slim-fit-jeans-558174-1669974264-1.JPG",
-            "description": "Men's Blue Distressed Slim Fit Jeans-Front Bewakoof",
-            "price": 1429,
-            "id":32
-        }
-     
-    
-    ],
-    "Womensproduct":[
-        {
-            "title": "Tshirt",
-            "img": "https://images.bewakoof.com/t640/women-s-black-son-of-white-fang-graphic-printed-boyfriend-t-shirt-559343-1670598214-1.jpg",
-            "description": "Women's Black Son of White Fang Graphic Printed Boyfriend T-shirt-Front Bewakoof",
-            "price": 329,
-            "id":1
-        },
-        {
-            "title": "Tshirt",
-            "img": "https://images.bewakoof.com/t640/women-s-brown-son-of-white-fang-graphic-printed-oversized-t-shirt-559351-1670598369-1.jpg",
-            "description": "Women's Brown Son of White Fang Graphic Printed Oversized T-shirt-Front Bewakoof",
-            "price": 449,
-            "id":2
-        },
-        {
-            "title": "Tshirt",
-            "img": "https://images.bewakoof.com/t640/women-s-pink-self-love-1-2-graphic-printed-oversized-t-shirt-559342-1670604421-1.jpg",
-            "description": "Women's Pink Self Love Graphic Printed Oversized T-shirt-Front Bewakoof",
-            "price": 449,
-            "id":3
-        },
-        {
-            "title": "Tshirt",
-            "img": "https://images.bewakoof.com/t640/women-s-black-agents-graphic-printed-boyfriend-t-shirt-559333-1670603832-1.jpg",
-            "description": "Women's Black Agents Typography Boyfriend T-shirt-Front Bewakoof",
-            "price": 330,
-            "id":4
-        },
-        {
-            "title": "Tshirt",
-            "img": "https://images.bewakoof.com/t640/women-s-green-agents-graphic-printed-oversized-t-shirt-559344-1670604335-1.jpg",
-            "description": "Women's Green Agents Typography Oversized T-shirt-Front Bewakoof",
-            "price": 669,
-            "id":5
-        },
-        {
-            "title": "Tshirt",
-            "img": "https://images.bewakoof.com/t640/women-s-white-reputation-taylor-swift-graphic-printed-oversized-t-shirt-561694-1670928903-1.jpg",
-            "description": "Women's White Reputation Taylor Swift Graphic Printed Oversized T-shirt-Front Bewakoof",
-            "price": 559,
-            "id":6
-        },
-        {
-            "title": "Sweatshirt",
-            "img": "https://images.bewakoof.com/t640/women-black-solid-super-loose-sweatshirt-501228-1661350625-1.jpg",
-            "description": "Women's Black Super Loose Fit Sweatshirt-Front Bewakoof",
-            "price": 779,
-            "id":7
-        },
-        {
-            "title": "Sweatshirt",
-            "img": "https://images.bewakoof.com/t640/women-barely-pink-solid-super-loose-sweatshirt-501262-1665664400-1.jpg",
-            "description": "Women's Barely Pink Super Loose Sweatshirt-Front Bewakoof",
-            "price": 749,
-            "id":8
-        },
-        {
-            "title": "Sweatshirt",
-            "img": "https://images.bewakoof.com/t640/women-black-printed-oversized-sweatshirt-504205-1665663531-1.jpg",
-            "description": "Women's Black Whatever Typography Oversized Sweatshirt-Front Bewakoof",
-            "price": 699,
-            "id":9
-        },
-        {
-            "title": "Sweatshirt",
-            "img": "https://images.bewakoof.com/t640/high-risk-red-oversized-sweatshirt-366287-1656175443-1.jpg",
-            "description": "Women's High Risk Red Relaxed Fit Sweatshirt-Front Bewakoof",
-            "price": 446,
-            "id":10
-        },
-        {
-            "title": "Sweatshirt",
-            "img": "https://images.bewakoof.com/t640/women-minions-me-want-banana-printed-sweatshirt-554350-1668432431-1.jpg",
-            "description": "Women's Black Minions Me Want Banana Graphic Printed Oversized Sweatshirt-Front Bewakoof",
-            "price": 1499,
-            "id":11
-        },
-        {
-            "title": "Sweatshirt",
-            "img": "https://images.bewakoof.com/t640/women-harbor-gray-colorblock-oversized-sweatshirt-504141-1670307191-1.jpg",
-            "description": "Women's Harbor Grey Super Loose Sweatshirt-Front Bewakoof",
-            "price": 1199,
-            "id":12
-        },
-        {
-            "title": "Sweatshirt",
-            "img": "https://images.bewakoof.com/t640/women-bridal-rose-colorblock-oversized-sweatshirt-504138-1670307234-1.jpg",
-            "description": "Women's Pink Color Block Super Loose Sweatshirt-Front Bewakoof",
-            "price": 849,
-            "id":13
-        },
-        {
-            "title": "Hoodies",
-            "img": "https://images.bewakoof.com/t640/women-s-black-self-love-graphic-printed-oversized-zipper-hoodie-560616-copy-1670830313-1.jpg",
-            "description": "Women's Black Self Love Graphic Printed Oversized Zipper Hoodie-Front Bewakoof",
-            "price": 1399,
-            "id":14
-        },
-        {
-            "title": "Hoodies",
-            "img": "https://images.bewakoof.com/t640/women-lavender-fog-solid-oversized-hoodie-501320-1663262920-1.jpg",
-            "description": "Women's Purple Oversized Hoodie-Front Bewakoof",
-            "price": 1299,
-            "id":15
-        },
-        {
-            "title": "Hoodies",
-            "img": "https://images.bewakoof.com/t640/women-s-solid-black-zipper-hoodie-361459-1655932974-1.jpg",
-            "description": "Women's Black Zipper Hoodie-Front Bewakoof",
-            "price": 1299,
-            "id":16
-        },
-        {
-            "title": "Hoodies",
-            "img": "https://images.bewakoof.com/t640/women-s-solid-side-tape-hoodie-361454-1656167067-1.jpg",
-            "description": "Women's Purple Hoodie-Front Bewakoof",
-            "price": 599,
-            "id":17
-        },
-        {
-            "title": "Hoodies",
-            "img": "https://images.bewakoof.com/t640/women-s-solid-dusty-pink-hoodie-dress-368344-1655933574-1.jpg",
-            "description": "Women's Pink Hoodie Dress-Front Bewakoof",
-            "price": 699,
-            "id":18
-        },
-        {
-            "title": "Hoodies",
-            "img": "https://images.bewakoof.com/t640/women-s-solid-flare-sleeve-hoodie-362062-1655933017-1.jpg",
-            "description": "Women's Red Flare Sleeves Hoodie-Front Bewakoof",
-            "price": 1649,
-            "id":19
-        },
-        {
-            "title": "Jeans",
-            "img": "https://images.bewakoof.com/t640/freakins-women-grey-solid-skinny-fit-jeans-451935-1656040200-1.jpg",
-            "description": "Freakins Women Grey Solid Skinny Fit Jeans-Front Bewakoof",
-            "price": 1469,
-            "id":20
-        },
-        {
-            "title": "Jeans",
-            "img": "https://images.bewakoof.com/t640/freakins-women-blue-solid-flared-jeans-451913-1655917820-1.jpg",
-            "description": "Freakins Women Blue Solid Flared Jeans-Front Bewakoof",
-            "price": 1499,
-            "id":21
-        },
-        {
-            "title": "Jeans",
-            "img": "https://images.bewakoof.com/t640/women-s-blue-straight-fit-jeans-555194-1668674389-1.jpg",
-            "description": "Women's Blue Straight Fit Jeans-Front Bewakoof",
-            "price": 1424,
-            "id":22
-        },
-        {
-            "title": "Jeans",
-            "img": "https://images.bewakoof.com/t640/women-s-blue-straight-fit-ripped-jeans-555204-1668674018-1.jpg",
-            "description": "Women's Blue Straight Fit Ripped Jeans-Front Bewakoof",
-            "price": 1499,
-            "id":23
-        },
-        {
-            "title": "Jeans",
-            "img": "https://images.bewakoof.com/t640/women-s-black-mom-fit-ripped-jeans-555195-1668673789-1.jpg",
-            "description": "Women's Black Mom Fit Ripped Jeans-Front Bewakoof",
-            "price": 1467,
-            "id":24
-        },
-        {
-            "title": "Jeans",
-            "img": "https://images.bewakoof.com/t640/women-s-black-mom-fit-jeans-555199-1668673694-1.jpg",
-            "description": "Women's Black Mom Fit Jeans-Front Bewakoof",
-            "price": 1199,
-            "id":25
-        },
-        {
-            "title": "Shorts",
-            "img": "https://images.bewakoof.com/t640/moss-green-basic-shorts-330529-1655748174-1.jpg",
-            "description": "Moss Green Basic Shorts-Front Bewakoof",
-            "price": 404,
-            "id":26
-        },
-        {
-            "title": "Shorts",
-            "img": "https://images.bewakoof.com/t640/ice-water-blue-highwaist-contrast-shorts-387088-1655818461-1.jpg",
-            "description": "Ice Water Blue Highwaist Contrast Shorts-Front Bewakoof",
-            "price": 669,
-            "id":27
-        },
-        {
-            "title": "Shorts",
-            "img": "https://images.bewakoof.com/t640/women-s-rayon-aop-shorts-502077-1661347376-1.jpg",
-            "description": "Women's Black Rayon AOP Shorts-Front Bewakoof",
-            "price": 559,
-            "id":28
-        },
-        {
-            "title": "Shorts",
-            "img": "https://images.bewakoof.com/t640/women-s-black-pride-basic-shorts-360960-1655834864-1.jpg",
-            "description": "Women's Black Pride Basic Shorts-Front Bewakoof",
-            "price": 654,
-            "id":29
-        },
-        {
-            "title": "Shorts",
-            "img": "https://images.bewakoof.com/t640/digital-party-aop-shorts-303974-1656144882-1.jpg",
-            "description": "Digital Party AOP Shorts-Front Bewakoof",
-            "price": 399,
-            "id":30
-        },
-        {
-            "title": "Shorts",
-            "img": "https://images.bewakoof.com/t640/black-basic-shorts-330809-1655748409-1.jpg",
-            "description": "Black Basic Shorts-Front Bewakoof",
-            "price": 499,
-            "id":31
-        },
-        {
-            "title": "Kurti",
-            "img": "https://images.bewakoof.com/t640/women-s-printed-long-kurti-dress-364703-1656167894-1.jpg",
-            "description": "Women's Printed Long Kurti Dress-Front Bewakoof",
-            "price": 344,
-            "id":32
-        },
-        {
-            "title": "Kurti",
-            "img": "https://images.bewakoof.com/t640/women-s-desi-printed-red-kurta-318339-1656179463-1.jpg",
-            "description": "Women's Desi Printed Red Kurta-Front Bewakoof",
-            "price": 334,
-            "id":33
-        },
-        {
-            "title": "Kurti",
-            "img": "https://images.bewakoof.com/t640/women-s-all-over-printed-kurti-dress-318275-1663920960-1.jpg",
-            "description": "Women's Mustard All Over Printed Kurti Dress-Front Bewakoof",
-            "price": 404,
-            "id":34
-        },
-        {
-            "title": "Kurti",
-            "img": "https://images.bewakoof.com/t640/red-dahlia-mandarin-collar-3-4-th-sleeve-kurta-353118-1663921225-1.jpg",
-            "description": "Women's Red Dahlia Mandarin Collar 3/4th Sleeve Long Kurta-Front Bewakoof",
-            "price": 446,
-            "id":35
-        },
-        {
-            "title": "Kurti",
-            "img": "https://images.bewakoof.com/t640/womens-mid-solid-kurta-318131-1663921182-1.jpg",
-            "description": "Women's Red Mid Kurta-Front Bewakoof",
-            "price": 403,
-            "id":36
-        },
-        {
-            "title": "Kurti",
-            "img": "https://images.bewakoof.com/t640/women-s-all-over-printed-kurti-dress-318487-1656139359-1.jpg",
-            "description": "Women's All Over Printed Kurti Dress-Front Bewakoof",
-            "price": 532,
-            "id":37
-        }
-    ]    
-
+  "manproduct": [
+    {
+      "title": "Tshirt",
+      "img": "https://images.bewakoof.com/t640/men-s-black-satoru-graphic-printed-oversized-t-shirt-558198-1669998488-1.jpg",
+      "description": "Men's Black Satoru Graphic Printed Oversized T-shirt-Front Bewakoof",
+      "price": 499,
+      "id": 1
+    },
+    {
+      "title": "Tshirt",
+      "img": "https://images.bewakoof.com/t640/men-s-black-king-of-wakanda-graphic-printed-oversized-t-shirt-558206-1669998215-1.jpg",
+      "description": "Men's Black King Of Wakanda Graphic Printed Oversized T-shirt-Front Bewakoof",
+      "price": 499,
+      "id": 2
+    },
+    {
+      "title": "Tshirt",
+      "img": "https://images.bewakoof.com/t640/2020-emojis-half-sleeve-t-shirt-black-277756-1656157097-1.jpg",
+      "description": "2020 Emojis Half Sleeve T-Shirt Black-Front Bewakoof",
+      "price": 149,
+      "id": 3
+    },
+    {
+      "title": "Tshirt",
+      "img": "https://images.bewakoof.com/t640/men-s-white-customizable-oversized-fit-t-shirt-504366-1667506569-1.jpg",
+      "description": "Men's White Customizable Oversized Fit T-shirt-Front Bewakoof",
+      "price": 649,
+      "id": 4
+    },
+    {
+      "title": "Tshirt",
+      "img": "https://images.bewakoof.com/t640/men-s-blue-satoru-graphic-printed-t-shirt-558201-1669998049-1.jpg",
+      "description": "Men's Blue Satoru Graphic Printed T-shirt-Front Bewakoof",
+      "price": 399,
+      "id": 5
+    },
+    {
+      "title": "Tshirt",
+      "img": "https://images.bewakoof.com/t640/men-ice-water-blue-so-printed-plus-size-t-shirt-541064-1663910516-1.jpg",
+      "description": "Men's Ice Water Blue SO Typography Plus Size T-shirt-Front Bewakoof",
+      "price": 409,
+      "id": 6
+    },
+    {
+      "title": "Joggers",
+      "img": "https://images.bewakoof.com/t640/navy-blue-casual-jogger-pant-293071-1655748181-1.jpg",
+      "description": "Shop Men's Blue Casual Joggers-Front",
+      "price": 699,
+      "id": 7
+    },
+    {
+      "title": "Joggers",
+      "img": "https://images.bewakoof.com/t640/jet-black-casual-jogger-pant-293063-1660652156-1.jpg",
+      "description": "Men's Black Casual Joggers-Front Bewakoof",
+      "price": 899,
+      "id": 8
+    },
+    {
+      "title": "Joggers",
+      "img": "https://images.bewakoof.com/t640/navy-blue-zipper-jogger-321139-1655747796-1.jpg",
+      "description": "Men's Blue Joggers-Front Bewakoof",
+      "price": 899,
+      "id": 9
+    },
+    {
+      "title": "Joggers",
+      "img": "https://images.bewakoof.com/t640/dark-olive-casual-cotton-trouser-330854-1663662028-1.jpg",
+      "description": "Dark Olive Casual Cotton Trouser-Front Bewakoof",
+      "price": 799,
+      "id": 10
+    },
+    {
+      "title": "Joggers",
+      "img": "https://images.bewakoof.com/t640/sage-green-casual-cotton-trouser-340543-1663661829-1.jpg",
+      "description": "Sage Green Casual Cotton Trouser-Front Bewakoof",
+      "price": 999,
+      "id": 11
+    },
+    {
+      "title": "Joggers",
+      "img": "https://images.bewakoof.com/t640/men-s-black-oversized-jogger-516604-1669351564-1.jpg",
+      "description": "Men's Black Oversized Jogger-Front Bewakoof",
+      "price": 1299,
+      "id": 12
+    },
+    {
+      "title": "shorts",
+      "img": "https://images.bewakoof.com/t640/moss-green-casual-shorts-293080-1656107949-1.jpg",
+      "description": "Men's Grey Casual Shorts-Front Bewakoof",
+      "price": 549,
+      "id": 13
+    },
+    {
+      "title": "shorts",
+      "img": "https://images.bewakoof.com/t640/jet-black-plus-size-casual-shorts-324727-1655748259-1.jpg",
+      "description": "Men's black Casual Shorts-Front Bewakoof",
+      "price": 549,
+      "id": 14
+    },
+    {
+      "title": "shorts",
+      "img": "https://images.bewakoof.com/t640/navy-blue-plus-size-casual-shorts-324728-1655748266-1.jpg",
+      "description": "Navy Blue Plus Size Casual Shorts-Front Bewakoof",
+      "price": 649,
+      "id": 15
+    },
+    {
+      "title": "shorts",
+      "img": "https://images.bewakoof.com/t640/dark-maroon-casual-shorts-293081-1661433967-1.jpg",
+      "description": "Dark Maroon Casual Shorts-Front Bewakoof",
+      "price": 404,
+      "id": 16
+    },
+    {
+      "title": "shorts",
+      "img": "https://images.bewakoof.com/t640/jet-black-casual-shorts-330319-1655747935-1.jpg",
+      "description": "Jet Black Casual Shorts-Front Bewakoof",
+      "price": 494,
+      "id": 17
+    },
+    {
+      "title": "shorts",
+      "img": "https://images.bewakoof.com/t640/red-passion-plain-boxer-233080-1661434306-1.jpg",
+      "description": "Red Passion Plain Boxer-Front Bewakoof",
+      "price": 314,
+      "id": 18
+    },
+    {
+      "title": "Hoodie",
+      "img": "https://images.bewakoof.com/t640/men-s-black-king-of-wakanda-graphic-printed-hoodie-558220-1670418471-1.jpg",
+      "description": "Men's Black King Of Wakanda Graphic Printed Hoodie-Front Bewakoof",
+      "price": 1399,
+      "id": 19
+    },
+    {
+      "title": "Hoodie",
+      "img": "https://images.bewakoof.com/t640/men-s-black-satoru-graphic-printed-oversized-sweatshirt-558216-1669998172-1.jpg",
+      "description": "Men's Black Satoru Graphic Printed Oversized Hoodie Sweatshirt-Front Bewakoof",
+      "price": 1599,
+      "id": 20
+    },
+    {
+      "title": "Hoodie",
+      "img": "https://images.bewakoof.com/t640/blue-quartz-color-block-hoodie-sweatshirt-392783-1656146344-1.jpg",
+      "description": "Men's Blue & Yellow Color Block Hoodie-Front Bewakoof",
+      "price": 1149,
+      "id": 21
+    },
+    {
+      "title": "Hoodie",
+      "img": "https://images.bewakoof.com/t640/men-s-off-white-solid-oversized-hoodie-499058-1670329186-1.jpg",
+      "description": "Men's Gardenia Oversized Hoodie-Front Bewakoof",
+      "price": 1399,
+      "id": 22
+    },
+    {
+      "title": "Long Kurta",
+      "img": "https://images.bewakoof.com/t640/men-s-solid-plum-purple-long-kurta-502498-1663931405-1.jpg",
+      "description": "Men's Plum Purple Relaxed Fit Long Kurta-Front Bewakoof",
+      "price": 619,
+      "id": 23
+    },
+    {
+      "title": "Long Kurta",
+      "img": "https://images.bewakoof.com/t640/men-s-mandarin-collar-festive-long-kurta-415379-1656155215-1.jpg",
+      "description": "Men's Orange Mandarin Collar Relaxed Fit Festive Long Kurta-Front Bewakoof",
+      "price": 334,
+      "id": 24
+    },
+    {
+      "title": "Long Kurta",
+      "img": "https://images.bewakoof.com/t640/men-s-plus-size-moonlit-ocean-short-kurta-504183-1665064914-1.jpg",
+      "description": "Men's Moonlit Ocean Plus Size Relaxed Fit Short Kurta-Front Bewakoof",
+      "price": 659,
+      "id": 25
+    },
+    {
+      "title": "Long Kurta",
+      "img": "https://images.bewakoof.com/t640/men-s-mustard-relaxed-fit-long-kurta-317794-1663931527-1.jpg",
+      "description": "Men's Mustard Relaxed Fit Long Kurta-Front Bewakoof",
+      "price": 764,
+      "id": 26
+    },
+    {
+      "title": "Jeans",
+      "img": "https://images.bewakoof.com/t640/men-s-blue-washed-slim-fit-jeans-558082-1669896925-1.JPG",
+      "description": "Men's Blue Washed Slim Fit Jeans-Front Bewakoof",
+      "price": 1163,
+      "id": 27
+    },
+    {
+      "title": "Jeans",
+      "img": "https://images.bewakoof.com/t640/men-s-blue-washed-slim-fit-jeans-558168-1669974575-1.jpg",
+      "description": "Men's Blue Washed Slim Fit Jeans-Front Bewakoof",
+      "price": 1300,
+      "id": 28
+    },
+    {
+      "title": "Jeans",
+      "img": "https://images.bewakoof.com/t640/men-s-grey-washed-skinny-fit-jeans-558072-1669895801-1.jpg",
+      "description": "Men's Grey Washed Skinny Fit Jeans-Front Bewakoof",
+      "price": 1163,
+      "id": 29
+    },
+    {
+      "title": "Jeans",
+      "img": "https://images.bewakoof.com/t640/men-s-black-slim-fit-jeans-558185-1669973372-1.jpg",
+      "description": "Men's Black Slim Fit Jeans-Front Bewakoof",
+      "price": 1250,
+      "id": 30
+    },
+    {
+      "title": "Jeans",
+      "img": "https://images.bewakoof.com/t640/men-s-blue-washed-skinny-fit-jeans-558061-1669895410-1.jpg",
+      "description": "Men's Blue Washed Skinny Fit Jeans-Front Bewakoof",
+      "price": 1200,
+      "id": 31
+    },
+    {
+      "title": "Jeans",
+      "img": "https://images.bewakoof.com/t640/men-s-blue-distressed-slim-fit-jeans-558174-1669974264-1.JPG",
+      "description": "Men's Blue Distressed Slim Fit Jeans-Front Bewakoof",
+      "price": 1429,
+      "id": 32
+    }
+  ],
+  "Womensproduct": [
+    {
+      "title": "Tshirt",
+      "img": "https://images.bewakoof.com/t640/women-s-black-son-of-white-fang-graphic-printed-boyfriend-t-shirt-559343-1670598214-1.jpg",
+      "description": "Women's Black Son of White Fang Graphic Printed Boyfriend T-shirt-Front Bewakoof",
+      "price": 329,
+      "id": 1
+    },
+    {
+      "title": "Tshirt",
+      "img": "https://images.bewakoof.com/t640/women-s-brown-son-of-white-fang-graphic-printed-oversized-t-shirt-559351-1670598369-1.jpg",
+      "description": "Women's Brown Son of White Fang Graphic Printed Oversized T-shirt-Front Bewakoof",
+      "price": 449,
+      "id": 2
+    },
+    {
+      "title": "Tshirt",
+      "img": "https://images.bewakoof.com/t640/women-s-pink-self-love-1-2-graphic-printed-oversized-t-shirt-559342-1670604421-1.jpg",
+      "description": "Women's Pink Self Love Graphic Printed Oversized T-shirt-Front Bewakoof",
+      "price": 449,
+      "id": 3
+    },
+    {
+      "title": "Tshirt",
+      "img": "https://images.bewakoof.com/t640/women-s-black-agents-graphic-printed-boyfriend-t-shirt-559333-1670603832-1.jpg",
+      "description": "Women's Black Agents Typography Boyfriend T-shirt-Front Bewakoof",
+      "price": 330,
+      "id": 4
+    },
+    {
+      "title": "Tshirt",
+      "img": "https://images.bewakoof.com/t640/women-s-green-agents-graphic-printed-oversized-t-shirt-559344-1670604335-1.jpg",
+      "description": "Women's Green Agents Typography Oversized T-shirt-Front Bewakoof",
+      "price": 669,
+      "id": 5
+    },
+    {
+      "title": "Tshirt",
+      "img": "https://images.bewakoof.com/t640/women-s-white-reputation-taylor-swift-graphic-printed-oversized-t-shirt-561694-1670928903-1.jpg",
+      "description": "Women's White Reputation Taylor Swift Graphic Printed Oversized T-shirt-Front Bewakoof",
+      "price": 559,
+      "id": 6
+    },
+    {
+      "title": "Sweatshirt",
+      "img": "https://images.bewakoof.com/t640/women-black-solid-super-loose-sweatshirt-501228-1661350625-1.jpg",
+      "description": "Women's Black Super Loose Fit Sweatshirt-Front Bewakoof",
+      "price": 779,
+      "id": 7
+    },
+    {
+      "title": "Sweatshirt",
+      "img": "https://images.bewakoof.com/t640/women-barely-pink-solid-super-loose-sweatshirt-501262-1665664400-1.jpg",
+      "description": "Women's Barely Pink Super Loose Sweatshirt-Front Bewakoof",
+      "price": 749,
+      "id": 8
+    },
+    {
+      "title": "Sweatshirt",
+      "img": "https://images.bewakoof.com/t640/women-black-printed-oversized-sweatshirt-504205-1665663531-1.jpg",
+      "description": "Women's Black Whatever Typography Oversized Sweatshirt-Front Bewakoof",
+      "price": 699,
+      "id": 9
+    },
+    {
+      "title": "Sweatshirt",
+      "img": "https://images.bewakoof.com/t640/high-risk-red-oversized-sweatshirt-366287-1656175443-1.jpg",
+      "description": "Women's High Risk Red Relaxed Fit Sweatshirt-Front Bewakoof",
+      "price": 446,
+      "id": 10
+    },
+    {
+      "title": "Sweatshirt",
+      "img": "https://images.bewakoof.com/t640/women-minions-me-want-banana-printed-sweatshirt-554350-1668432431-1.jpg",
+      "description": "Women's Black Minions Me Want Banana Graphic Printed Oversized Sweatshirt-Front Bewakoof",
+      "price": 1499,
+      "id": 11
+    },
+    {
+      "title": "Sweatshirt",
+      "img": "https://images.bewakoof.com/t640/women-harbor-gray-colorblock-oversized-sweatshirt-504141-1670307191-1.jpg",
+      "description": "Women's Harbor Grey Super Loose Sweatshirt-Front Bewakoof",
+      "price": 1199,
+      "id": 12
+    },
+    {
+      "title": "Sweatshirt",
+      "img": "https://images.bewakoof.com/t640/women-bridal-rose-colorblock-oversized-sweatshirt-504138-1670307234-1.jpg",
+      "description": "Women's Pink Color Block Super Loose Sweatshirt-Front Bewakoof",
+      "price": 849,
+      "id": 13
+    },
+    {
+      "title": "Hoodies",
+      "img": "https://images.bewakoof.com/t640/women-s-black-self-love-graphic-printed-oversized-zipper-hoodie-560616-copy-1670830313-1.jpg",
+      "description": "Women's Black Self Love Graphic Printed Oversized Zipper Hoodie-Front Bewakoof",
+      "price": 1399,
+      "id": 14
+    },
+    {
+      "title": "Hoodies",
+      "img": "https://images.bewakoof.com/t640/women-lavender-fog-solid-oversized-hoodie-501320-1663262920-1.jpg",
+      "description": "Women's Purple Oversized Hoodie-Front Bewakoof",
+      "price": 1299,
+      "id": 15
+    },
+    {
+      "title": "Hoodies",
+      "img": "https://images.bewakoof.com/t640/women-s-solid-black-zipper-hoodie-361459-1655932974-1.jpg",
+      "description": "Women's Black Zipper Hoodie-Front Bewakoof",
+      "price": 1299,
+      "id": 16
+    },
+    {
+      "title": "Hoodies",
+      "img": "https://images.bewakoof.com/t640/women-s-solid-side-tape-hoodie-361454-1656167067-1.jpg",
+      "description": "Women's Purple Hoodie-Front Bewakoof",
+      "price": 599,
+      "id": 17
+    },
+    {
+      "title": "Hoodies",
+      "img": "https://images.bewakoof.com/t640/women-s-solid-dusty-pink-hoodie-dress-368344-1655933574-1.jpg",
+      "description": "Women's Pink Hoodie Dress-Front Bewakoof",
+      "price": 699,
+      "id": 18
+    },
+    {
+      "title": "Hoodies",
+      "img": "https://images.bewakoof.com/t640/women-s-solid-flare-sleeve-hoodie-362062-1655933017-1.jpg",
+      "description": "Women's Red Flare Sleeves Hoodie-Front Bewakoof",
+      "price": 1649,
+      "id": 19
+    },
+    {
+      "title": "Jeans",
+      "img": "https://images.bewakoof.com/t640/freakins-women-grey-solid-skinny-fit-jeans-451935-1656040200-1.jpg",
+      "description": "Freakins Women Grey Solid Skinny Fit Jeans-Front Bewakoof",
+      "price": 1469,
+      "id": 20
+    },
+    {
+      "title": "Jeans",
+      "img": "https://images.bewakoof.com/t640/freakins-women-blue-solid-flared-jeans-451913-1655917820-1.jpg",
+      "description": "Freakins Women Blue Solid Flared Jeans-Front Bewakoof",
+      "price": 1499,
+      "id": 21
+    },
+    {
+      "title": "Jeans",
+      "img": "https://images.bewakoof.com/t640/women-s-blue-straight-fit-jeans-555194-1668674389-1.jpg",
+      "description": "Women's Blue Straight Fit Jeans-Front Bewakoof",
+      "price": 1424,
+      "id": 22
+    },
+    {
+      "title": "Jeans",
+      "img": "https://images.bewakoof.com/t640/women-s-blue-straight-fit-ripped-jeans-555204-1668674018-1.jpg",
+      "description": "Women's Blue Straight Fit Ripped Jeans-Front Bewakoof",
+      "price": 1499,
+      "id": 23
+    },
+    {
+      "title": "Jeans",
+      "img": "https://images.bewakoof.com/t640/women-s-black-mom-fit-ripped-jeans-555195-1668673789-1.jpg",
+      "description": "Women's Black Mom Fit Ripped Jeans-Front Bewakoof",
+      "price": 1467,
+      "id": 24
+    },
+    {
+      "title": "Jeans",
+      "img": "https://images.bewakoof.com/t640/women-s-black-mom-fit-jeans-555199-1668673694-1.jpg",
+      "description": "Women's Black Mom Fit Jeans-Front Bewakoof",
+      "price": 1199,
+      "id": 25
+    },
+    {
+      "title": "Shorts",
+      "img": "https://images.bewakoof.com/t640/moss-green-basic-shorts-330529-1655748174-1.jpg",
+      "description": "Moss Green Basic Shorts-Front Bewakoof",
+      "price": 404,
+      "id": 26
+    },
+    {
+      "title": "Shorts",
+      "img": "https://images.bewakoof.com/t640/ice-water-blue-highwaist-contrast-shorts-387088-1655818461-1.jpg",
+      "description": "Ice Water Blue Highwaist Contrast Shorts-Front Bewakoof",
+      "price": 669,
+      "id": 27
+    },
+    {
+      "title": "Shorts",
+      "img": "https://images.bewakoof.com/t640/women-s-rayon-aop-shorts-502077-1661347376-1.jpg",
+      "description": "Women's Black Rayon AOP Shorts-Front Bewakoof",
+      "price": 559,
+      "id": 28
+    },
+    {
+      "title": "Shorts",
+      "img": "https://images.bewakoof.com/t640/women-s-black-pride-basic-shorts-360960-1655834864-1.jpg",
+      "description": "Women's Black Pride Basic Shorts-Front Bewakoof",
+      "price": 654,
+      "id": 29
+    },
+    {
+      "title": "Shorts",
+      "img": "https://images.bewakoof.com/t640/digital-party-aop-shorts-303974-1656144882-1.jpg",
+      "description": "Digital Party AOP Shorts-Front Bewakoof",
+      "price": 399,
+      "id": 30
+    },
+    {
+      "title": "Shorts",
+      "img": "https://images.bewakoof.com/t640/black-basic-shorts-330809-1655748409-1.jpg",
+      "description": "Black Basic Shorts-Front Bewakoof",
+      "price": 499,
+      "id": 31
+    },
+    {
+      "title": "Kurti",
+      "img": "https://images.bewakoof.com/t640/women-s-printed-long-kurti-dress-364703-1656167894-1.jpg",
+      "description": "Women's Printed Long Kurti Dress-Front Bewakoof",
+      "price": 344,
+      "id": 32
+    },
+    {
+      "title": "Kurti",
+      "img": "https://images.bewakoof.com/t640/women-s-desi-printed-red-kurta-318339-1656179463-1.jpg",
+      "description": "Women's Desi Printed Red Kurta-Front Bewakoof",
+      "price": 334,
+      "id": 33
+    },
+    {
+      "title": "Kurti",
+      "img": "https://images.bewakoof.com/t640/women-s-all-over-printed-kurti-dress-318275-1663920960-1.jpg",
+      "description": "Women's Mustard All Over Printed Kurti Dress-Front Bewakoof",
+      "price": 404,
+      "id": 34
+    },
+    {
+      "title": "Kurti",
+      "img": "https://images.bewakoof.com/t640/red-dahlia-mandarin-collar-3-4-th-sleeve-kurta-353118-1663921225-1.jpg",
+      "description": "Women's Red Dahlia Mandarin Collar 3/4th Sleeve Long Kurta-Front Bewakoof",
+      "price": 446,
+      "id": 35
+    },
+    {
+      "title": "Kurti",
+      "img": "https://images.bewakoof.com/t640/womens-mid-solid-kurta-318131-1663921182-1.jpg",
+      "description": "Women's Red Mid Kurta-Front Bewakoof",
+      "price": 403,
+      "id": 36
+    },
+    {
+      "title": "Kurti",
+      "img": "https://images.bewakoof.com/t640/women-s-all-over-printed-kurti-dress-318487-1656139359-1.jpg",
+      "description": "Women's All Over Printed Kurti Dress-Front Bewakoof",
+      "price": 532,
+      "id": 37
+    }
+  ],
+  "userAddressDetails": [
+    {
+      "id": 1,
+      "countryName": "India",
+      "fullName": "Nikhil Kumar",
+      "mobileNo": 9999999999,
+      "pinCode": 123456,
+      "city": "jamshedpur",
+      "state": "jharkhand",
+      "flatNo": 12,
+      "area": "Manago",
+      "landmark": "Near bus stand"
+    },
+    {
+      "country": "India",
+      "firstname": "Rakesh Kumar",
+      "mobileNo": "2222222222",
+      "pinCode": "123456",
+      "city": "Patna",
+      "state": "Bihar",
+      "flatNo": "12",
+      "area": "Dimna",
+      "landmark": "Near School",
+      "id": 2
+    },
+    {
+      "country": "India",
+      "firstname": "Nitin Kumar",
+      "mobileNo": "8888888888",
+      "pinCode": "345678",
+      "city": "Patna",
+      "state": "Bihar",
+      "flatNo": "12",
+      "area": "Dimna",
+      "landmark": "Near School",
+      "id": 3
+    },
+    {
+      "country": "India",
+      "firstname": "Jishnu Raj",
+      "mobileNo": "123456789",
+      "pinCode": "123456",
+      "city": "Kottyama",
+      "state": "Kerala",
+      "flatNo": "12",
+      "area": "Railway Station",
+      "landmark": "Bus Stand",
+      "id": 4
+    }
+  ]
 }

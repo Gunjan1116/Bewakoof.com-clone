@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* nav bar ------------------------------------------------------------------------------------------------------------*/
+
+#Nav {
+    display: flex;
+    width: 100%;
+    height: 30px;
+    /* background-image: url(https://adn-static1.nykaa.com/media/wysiwyg/2021/common-strip.jpg); */
+    background: #b5b1b1;
+
+}
+
+#upNav {
+    width: 100%;
+    height: 40px;
+}
+
+#dnav {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px 130px 0px 0px;
+    align-items: center;
+    width: 60%;
+}
+
+.nav-text>a:hover,
+.dinner:hover a,.dinner:hover>svg {
+    color: grey;
+}
+
+.dinner {
+    display: flex;
+    align-items: center;
+}
+.dinner a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+.nav-text {
+    /* display: flex; */
+    font-size: 14px;
+    font-family: Inter, Roboto, Arial, sans-serif;
+    /* align-items: center; */
+    margin-left: 190px;
+    margin-top: 6px;
+}
+
+
+#lowerNav {
+    width: 100%;
+    height: 65px;
+    border-bottom:0.5px solid rgb(202, 199, 199);
+    background-color: white;
+}
+
+#lower {
+    display: flex;
+    gap: 20px;
+}
+
+#lowerNav {
+    display: flex;
+    background-color: #fff;
+}
+
+#nav-left {
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    gap: 20px;
+}
+.left>a {
+    text-decoration-line: none;
+    color: black;
+    font-weight: bold;
+}
+
+.left>a:hover {
+    color: #fc2779;
+  
+}
+
+#nav-rigth {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-around;
+    gap: 35px;
+
+}
+#nav-rigth>img{
+  width: 64px;
+  margin-right: -37px;
+}
+#nav-rigth input {
+    width: 220px;
+    padding: 10px;
+    background-color:#EAEAEA;
+    border: none;
+}
+#nav-rigth input:focus{
+  outline: none;
+}
+#nav-rigth input:hover{
+  border-bottom: 2px solid #e91e63;
+}
+#account{
+    text-decoration: none;
+    color:black;
+}
+#account:hover{
+    color:#fc2779;
+}
+
+#acc {
+    display: flex;
+    align-items: center;
+}
+#mainNav{
+  position:sticky;
+  z-index: 2;
+  top: 0;
+}
+#cart{
+    display: flex;
+    align-items: center;
+   
+}
+#ct:hover{
+    color:#fc2779;
+}
+#ct{
+    text-decoration: none;
+    color:black;
+}
+/* body part css */
+#entry{
+    text-align: center;
+    margin-top: 100px;
+}
+#entry input{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 20px 80px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 1px solid darkgrey;
+}
+#entry input:hover{
+     border: 1px solid slategray;
+    cursor: pointer;
+    transform: scale3d(1.1,1.1,1.1);
+}
+#entry #login-btn{
+    padding: 20px 170px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 1px solid darkgrey;
+    background-color: rgb(163, 172, 180);
+    color: snow;
+}
+#entry #login-btn:hover{
+    border: 1px solid slategray;
+    cursor: pointer;
+    transform: scale3d(1.1,1.1,1.1);
+}
