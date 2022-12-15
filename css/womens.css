@@ -2,6 +2,9 @@
     margin: 0px;
     padding: 0px;
 } */
+body{
+  background-color: rgba(255, 255, 255, 0.753);
+}
 #manclothingheading u{
     text-decoration: underline solid rgba(233, 229, 7, 0.993) 13%;
 }

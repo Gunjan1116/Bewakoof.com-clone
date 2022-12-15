@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="../">
+   
+   <link rel="stylesheet" href="../css/womens.css">
     <title>Document</title>
 
    
@@ -13,7 +14,7 @@
     <div id="topheadingSection">
         <!-- left Man clothing  ******************************************** -->
         <div id="manclothingheading">
-          <h1> <u>Woman clothing</u>(122)</h1>
+          <h1> <u>Womens clothing</u>(122)</h1>
         </div>
       </div>
       <!-- left Man clothing  ******************************************** -->
@@ -30,12 +31,12 @@
         </select>
         <hr>
         
-          <select name="" id="Size">
-            <option>Price</option>
-            <option>High to Low</option>
-            <option>Low to High</option>
-           
-          </select>
+        <select onChange="handleSort()"name="" id="Size">
+          <option value="Price">Price</option>
+          <option value="HTL">High to Low</option>
+          <option value="LTH">Low to High</option>
+         
+        </select>
           <hr>
 
           <select name="" id="brand">
@@ -79,5 +80,5 @@
        <!-- parent box of two filter and append --> 
 </body>
 </html>
-<script src="./"></script>
+<script src="../script/womens.js"></script>
 
