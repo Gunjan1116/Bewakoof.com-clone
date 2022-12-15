@@ -12,9 +12,9 @@
     border: 1px solid blue;
     width: 23%;
     height: 800px;
-   
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     padding: 20px;
-   
+   cursor: pointer;
 
 }
    #parentofCart :nth-child(2){
@@ -40,18 +40,19 @@
    }
    #cartdiv img{
      width: 100%;
+     cursor: pointer;
    }
    #cartdiv button{
-     padding: 5px 15px;
+    padding: 10px 50px;
     
-     background-color: rgb(187, 180, 180);
-     border: none;
-     border-radius: 5px;
+    background-color: rgb(112, 198, 238);
+    border: none;
+    border-radius: 2px;
      
    }
    #cartdiv button:hover{
-     
-     background-color: rgb(105, 103, 103);
+    cursor: pointer;
+    background-color: rgb(159, 184, 190);
    }
    #cartdiv div{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -68,6 +69,11 @@
     border:none;
    }
    #Size{
+    padding: 10px 80px;
+    font-size: 20px;
+    border:none;
+   }
+   #Sizes{
     padding: 10px 80px;
     font-size: 20px;
     border:none;
