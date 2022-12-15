@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* nav bar ------------------------------------------------------------------------------------------------------------*/
+
+#Nav {
+    display: flex;
+    width: 100%;
+    height: 30px;
+    /* background-image: url(https://adn-static1.nykaa.com/media/wysiwyg/2021/common-strip.jpg); */
+    background: #b5b1b1;
+
+}
+
+#upNav {
+    width: 100%;
+    height: 40px;
+}
+
+#dnav {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px 130px 0px 0px;
+    align-items: center;
+    width: 60%;
+}
+
+.nav-text>a:hover,
+.dinner:hover a,.dinner:hover>svg {
+    color: grey;
+}
+
+.dinner {
+    display: flex;
+    align-items: center;
+}
+.dinner a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+.nav-text {
+    /* display: flex; */
+    font-size: 14px;
+    font-family: Inter, Roboto, Arial, sans-serif;
+    /* align-items: center; */
+    margin-left: 190px;
+    margin-top: 6px;
+}
+
+
+#lowerNav {
+    width: 100%;
+    height: 65px;
+    border-bottom:0.5px solid rgb(202, 199, 199);
+    background-color: white;
+}
+
+#lower {
+    display: flex;
+    gap: 20px;
+}
+
+#lowerNav {
+    display: flex;
+    background-color: #fff;
+}
+
+#nav-left {
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    gap: 20px;
+}
+.left>a {
+    text-decoration-line: none;
+    color: black;
+    font-weight: bold;
+}
+
+.left>a:hover {
+    color: #fc2779;
+  
+}
+
+#nav-rigth {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-around;
+    gap: 35px;
+
+}
+#nav-rigth>img{
+  width: 64px;
+  margin-right: -37px;
+}
+#nav-rigth input {
+    width: 220px;
+    padding: 10px;
+    background-color:#EAEAEA;
+    border: none;
+}
+#nav-rigth input:focus{
+  outline: none;
+}
+#nav-rigth input:hover{
+  border-bottom: 2px solid #e91e63;
+}
+#account{
+    text-decoration: none;
+    color:black;
+}
+#account:hover{
+    color:#fc2779;
+}
+
+#acc {
+    display: flex;
+    align-items: center;
+}
+#mainNav{
+  position:sticky;
+  z-index: 2;
+  top: 0;
+}
+#cart{
+    display: flex;
+    align-items: center;
+   
+}
+#ct:hover{
+    color:#fc2779;
+}
+#ct{
+    text-decoration: none;
+    color:black;
+}
+/* body part css */
+h1{
+   margin-top: 10px; 
+   margin-bottom: 20px;
+   color: black;
+}
+#all_Input {
+    margin-left: 100px;
+}
+#all_Input form p input{
+    margin-bottom: 5px;
+    padding: 10px 200px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+#all_Input .addressButton>input{
+    padding:10px 235px;
+    background-color: rgb(50, 179, 230);
+    color: white;
+    border: 1px solid rgb(50, 179, 230);
+
+}
+#all_Input form p input:hover{
+    border: 1px solid rgb(50, 179, 230);
+}

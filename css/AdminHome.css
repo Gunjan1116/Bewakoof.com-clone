@@ -1,0 +1,40 @@
+#main-container{
+    width:98%;
+    height:auto;
+    border:1px solid red;
+    margin: auto;
+    display: flex;
+}
+
+
+#add-container{
+    text-align: center;
+    margin:auto;
+    height:100%;
+    width:33%;
+}
+
+#display-container{
+    height: 1000px;
+    width:66%;
+    margin: auto;
+    border:1px solid blue;
+}
+.inPut{
+    width:100%;
+    padding:10px 0px;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.submit-btn{
+    border:none;
+    color:white;
+    background-color: rgb(90, 90, 91);
+}
+
+.pro-header{
+    font-size: 30px;
+    font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+}
