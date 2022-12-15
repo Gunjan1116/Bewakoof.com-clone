@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(252, 243, 223);
+        }
+        #main{
+         
+          
+            height:600px;
+            width:70%;
+            text-align: center;
+            margin:auto;
+            background-color: white;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;;
+            padding: 10px;
+
+
+        }
+        h3{
+            color: rgb(128, 210, 235);
+            margin-bottom: 30px;
+            margin-top: 30px;
+        }
+        #h1_log{
+            margin-bottom: 80px;
+            margin-top: 80px;
+        }
+        #email{
+            padding: 15px 40px;
+            font-size: 30px;
+            margin-bottom: 40px;
+        }
+        #pass{
+            padding: 15px 40px;
+            font-size: 30px;
+        }
+#SIGN{
+    
+    border: 0px;
+    border-radius: 10px;
+    padding: 15px 200px;
+            font-size: 30px;
+            background-color: gray;
+            color:white;
+            margin-top: 20px;
+}
+*:focus{
+ outline: none;
+}
+    </style>
+</head>
+<body>
+  <div id="main">
+    <h1 id="h1_log">Log in to your account</h1>
+   
+    <form id="form" action="">
+        
+   <input id="email" type="mail" placeholder="Enter email" required> 
+<br>
+   <input id="pass" type="password" placeholder="Enter password" required>
+   <br>
+    <input id="SIGN" type="submit"  value="SIGN IN">
+    </form> 
+    <h1 id="show_res"></h1>
+  <h3>Forgot Password?</h3>
+ 
+    
+    </div>
+</body>
+</html>
+<script>
+    
+     
+                      document.querySelector("#form").addEventListener("submit",checkFunc) 
+
+                      function checkFunc(){ 
+                        event.preventDefault()
+                        var userData = JSON.parse(localStorage.getItem("saveSignup")) 
+                       
+                        let  iemail=document.getElementById("email").value; 
+                        let ipass=document.getElementById("pass").value; 
+                       
+                         for(var i=0 ;i<userData.length ;i++)
+                        { if(iemail==userData[i].email && ipass==userData[i].password)
+                        { 
+                            // document.querySelector("#show_res").innerHTML="Login success";
+                            // document.querySelector("#show_res").style.color="green"
+                      
+                        }
+                        else{
+                                document.querySelector("#show_res").innerHTML="wrong credentials";
+                                document.querySelector("#show_res").style.color="red"
+                                
+                              }
+
+                              
+                            } 
+                        } 
+
+    
+
+</script>
