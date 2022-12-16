@@ -2,16 +2,157 @@
     margin: 5px;
     padding: 0px;
 }
-#manclothingheading u{
-    text-decoration: underline solid rgba(233, 229, 7, 0.993) 13%;
+/* nav bar ------------------------------------------------------------------------------------------------------------*/
+
+#Nav {
+  display: flex;
+  width: 100%;
+  height: 30px;
+  /* background-image: url(https://adn-static1.nykaa.com/media/wysiwyg/2021/common-strip.jpg); */
+  background: #bdbdbd;
+
+}
+
+#upNav {
+  width: 100%;
+  height: 40px;
+}
+
+#dnav {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0px 130px 0px 0px;
+  align-items: center;
+  width: 60%;
+}
+
+.nav-text>a:hover,
+.dinner:hover a,.dinner:hover>svg {
+  color: grey;
+}
+
+.dinner {
+  display: flex;
+  align-items: center;
+}
+.dinner a{
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+}
+
+.nav-text {
+  /* display: flex; */
+  font-size: 14px;
+  font-family: Inter, Roboto, Arial, sans-serif;
+  /* align-items: center; */
+  margin-left: 190px;
+  margin-top: 6px;
+}
+
+
+#lowerNav {
+  width: 100%;
+  height: 65px;
+  border-bottom:0.5px solid rgb(202, 199, 199);
+  background-color: white;
+}
+
+#lower {
+  display: flex;
+  gap: 20px;
+}
+
+#lowerNav {
+  display: flex;
+  background-color: #fff;
+}
+
+#nav-left {
+  display: flex;
+  margin-top: auto;
+  margin-bottom: auto;
+  gap: 20px;
+}
+.left>a {
+  text-decoration-line: none;
+  color: black;
+  font-weight: bold;
+}
+
+.left>a:hover {
+  color: #fc2779;
+
+}
+
+#nav-rigth {
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: space-around;
+  gap: 35px;
+
+}
+#nav-rigth>img{
+width: 64px;
+margin-right: -37px;
+}
+#nav-rigth input {
+  width: 220px;
+  padding: 10px;
+  background-color:#EAEAEA;
+  border: none;
+}
+#nav-rigth input:focus{
+outline: none;
+}
+#nav-rigth input:hover{
+border-bottom: 2px solid #e91e63;
+}
+#account{
+  text-decoration: none;
+  color:black;
+}
+#account:hover{
+  color:#fc2779;
+}
+
+#acc {
+  display: flex;
+  align-items: center;
+}
+#mainNav{
+position:sticky;
+z-index: 2;
+top: 0;
+}
+#cart{
+  display: flex;
+  align-items: center;
+ 
+}
+#ct:hover{
+  color:#fc2779;
+}
+#ct{
+  text-decoration: none;
+  color:black;
+}
+/* nav bar----------------------------------------------------------------------------------------------------- */
+
+
+
+#manclothing{
+    text-decoration: underline solid rgba(233, 229, 7, 0.993) 9%;
 }
 #parentofCart{
     display: flex;
+    
 }
 #filterdiv{
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     width: 23%;
-    height: 800px;
+    height: 350px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     padding: 20px;
    cursor: pointer;
@@ -19,32 +160,64 @@
 }
    #parentofCart :nth-child(2){
     margin-right:20px;
+   
+   }
+   .parentcart button {
+    margin-left: 60px;
+    margin-top: 40px;
+    font-size: 12px;
+   }
+   .parentcart h4,p {
+    text-align: start;
+   }
+   .parentcart h4{
+    text-align: start;
+    margin-left: 0px;
+   }
+   #fashiontrend{
+    color: rgb(35, 142, 230);
+    /* color: #737373!important; */
+    font-size: 14px;  
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   }
+   .description{
+    font-family: sans-serif;
+font-size: 14px;
+    white-space: nowrap; 
+    width: 250px; 
+  
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #737373!important
    }
 
 /* Filter Section Css start here */
-
 
 
 /* Filter Section Css  here */
 
   /* Cart Section CSS */
 #cartdiv{
-    border: 1px solid green;
+    /* border: 1px solid green; */
     display: grid;
     grid-template-columns: repeat(3,1fr);
     width:70%;
     margin: auto;
     gap: 10px;
     text-align: center;
- 
+    aspect-ratio: 1;
+    overflow: scroll;
+    overflow-anchor: none;
+    
    }
+   
    #cartdiv img{
      width: 100%;
      
      cursor: pointer;
    }
    #cartdiv button{
-    padding: 10px 50px;
+    padding: 6px 30px;
     
     background-color: rgb(112, 198, 238);
     border: none;
@@ -53,7 +226,7 @@
    }
    #cartdiv button:hover{
     cursor: pointer;
-    background-color: rgb(159, 184, 190);
+    background-color: rgb(14, 181, 223);
    }
    #cartdiv div{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -77,22 +250,22 @@
     border:none;
    }
    #Size{
-    padding: 10px 80px;
-    font-size: 20px;
+    padding: 3px 75px;
+    font-size: 19px;
     border:none;
    }
    #Sizes{
-    padding: 10px 80px;
-    font-size: 20px;
+    padding: 10px 100px;
+    font-size: 19px;
     border:none;
    }
    #brand{
-    padding: 10px 80px;
+    padding: 10px 82px;
     font-size: 20px;
     border:none;
    }
    #Design{
-    padding: 10px 80px;
+    padding: 10px 68px;
     font-size: 20px;
     border:none;
    }
@@ -102,7 +275,62 @@ option{
 select{
     font-size: 18px;
 }
+ /*--------------------------- medium media query --------------------------------------------*/
+@media all and (min-width:400px) and (max-width:800px){
+  #cartdiv{   
+    grid-template-columns: repeat(2,1fr);
+   }
+
+}
+/* small screen media query */
+@media all and (min-width:200px) and (max-width:500px){
+  #cartdiv{   
+    grid-template-columns: repeat(1,1fr);
+   }
   
+}
+ /*--------------------------- medium media query --------------------------------------------*/
+
+
+/* //----------------------------image flash effect here----------------------------------// */
+.parentcart:hover img {
+  opacity: 1;
+  -webkit-animation: flash 1.5s;
+	animation: flash 1.5s;
+}
+@-webkit-keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+/* //----------------------------image flash effect End here----------------------------------// */
+
+/*------------------------------------- nav botton section Css ---------------------------*/
+#navlower{
+  margin-left: 10px;
+  margin-bottom: 10px;
+  width: 300px;
+  padding-left: 20px;
+}
+
+#navlower a{
+text-decoration: none;
+color: #737373;
+font-size: 13px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/*------------------------------------- nav botton section Css ---------------------------*/
    
    
    
