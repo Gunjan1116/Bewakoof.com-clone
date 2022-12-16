@@ -218,28 +218,21 @@
       "id": 31
     },
     {
-      "title": "Jeans",
-      "img": "https://images.bewakoof.com/t640/men-s-blue-distressed-slim-fit-jeans-558174-1669974264-1.JPG",
-      "description": "Men's Blue Distressed Slim Fit Jeans-Front Bewakoof",
-      "price": 1429,
-      "id": 32
-    },
-    {
       "title": "Tshirt",
       "img": "https://images.bewakoof.com/t1080/killer-brown-aop-t-shirt-405495-1655813764-1.jpg",
       "description": "Killer Brown AOP T-shirt",
       "price": "539",
       "id": 33
+    },
+    {
+      "title": "Tshirt",
+      "img": "https://images.bewakoof.com/t1080/men-panda-camou-2-0-aop-t-shirt-516659-1667398507-1.jpg",
+      "description": "Men's Lilac Camo Super Loose Fit T-shirt",
+      "price": "559",
+      "id": 34
     }
   ],
   "Womensproduct": [
-    {
-      "title": "Tshirt",
-      "img": "https://images.bewakoof.com/t640/women-s-black-son-of-white-fang-graphic-printed-boyfriend-t-shirt-559343-1670598214-1.jpg",
-      "description": "Women's Black Son of White Fang Graphic Printed Boyfriend T-shirt-Front Bewakoof",
-      "price": 329,
-      "id": 1
-    },
     {
       "title": "Tshirt",
       "img": "https://images.bewakoof.com/t640/women-s-brown-son-of-white-fang-graphic-printed-oversized-t-shirt-559351-1670598369-1.jpg",
@@ -492,7 +485,7 @@
       "price": 532,
       "id": 37
     },
-     {
+    {
       "title": "Tshirt",
       "img": "https://images.bewakoof.com/t1080/women-s-green-agents-graphic-printed-oversized-t-shirt-559344-1670604335-1.jpg",
       "description": "Women's Green Agents Typography Oversized T-shirt",
