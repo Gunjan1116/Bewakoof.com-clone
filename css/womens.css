@@ -1,27 +1,48 @@
-/* *{
-    margin: 0px;
-    padding: 0px;
-} */
+* {
+  margin: 5px;
+  padding: 0px;
+}
 
-#manclothingheading u{
-    text-decoration: underline solid rgba(233, 229, 7, 0.993) 13%;
+/*------------------------------------- nav botton section Css ---------------------------*/
+#navlower {
+  margin-left: 10px;
+  margin-bottom: 20px;
+  width: 300px;
+  padding-left: 20px;
 }
-#parentofCart{
-    display: flex;
+
+#navlower a {
+  text-decoration: none;
+  color: #737373;
+  font-size: 13px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-#filterdiv{
-     border: 1px solid blue; 
-    width: 23%;
-    height: auto;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    padding: 20px;
-   border-radius: 9px;
-   margin-left: 10px;
-   cursor: pointer;
+
+/*------------------------------------- nav botton section Css ---------------------------*/
+#manclothing {
+  text-decoration: underline solid rgba(233, 229, 7, 0.993) 9%;
 }
-   #parentofCart :nth-child(2){
-    margin-right:20px;
-   }
+
+#parentofCart {
+  display: flex;
+}
+
+#filterdiv {
+  border: 1px solid blue;
+  width: 25%;
+  height: 400px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 0px;
+  border-radius: 9px;
+  margin-left: 5px;
+  cursor: pointer;
+
+}
+
+#parentofCart :nth-child(2) {
+  margin-right: 20px;
+}
+
 
 /* Filter Section Css start here */
 
@@ -29,84 +50,189 @@
 
 /* Filter Section Css  here */
 
-  /* Cart Section CSS */
-#cartdiv{
-    /* border: 1px solid green; */
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    width:70%;
-    margin: auto;
-    gap: 10px;
-    text-align: center;
-    
- 
-   }
+/* Cart Section CSS */
+#cartdiv {
+  border: 1px solid green;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 70%;
+  margin: auto;
+  gap: 8px;
+  text-align: center;
 
-  
-#cartdiv div{
-    
+  aspect-ratio: 1;
+  overflow: scroll;
+  overflow-anchor: none;
+  padding: 0px 5px;
+}
+
+#fashiontrend {
+  color: rgb(35, 142, 230);
+  /* color: #737373!important; */
+  font-size: 14px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.description {
+  font-family: sans-serif;
+  font-size: 14px;
+  white-space: nowrap;
+  width: 250px;
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #737373 !important
+}
+
+.parentcart h4,
+p {
+  text-align: start;
+}
+
+#cartdiv div {
+
   border-radius: 10px;
-    
- 
-   }
-   #cartdiv img{
-     width: 100%;
-     border-radius: 5px;
-     cursor: pointer;
-   }
-   #cartdiv button{
-     padding: 10px 50px;
-    
-     background-color: rgb(112, 198, 238);
-     border: none;
-     border-radius: 2px;
-     
-   }
-   #cartdiv button:hover{
-     cursor: pointer;
-     background-color: rgb(159, 184, 190);
-   }
-   #cartdiv div{
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-   }
-   .parentcart{
-     padding: 10px;
-   }
-   
-   /* cart Section CSS End here */
 
-   #Category{
-    padding: 10px 80px;
-    font-size: 19px;
-    border:none;
-   }
-   #Size{
-    padding: 10px 80px;
-    font-size: 20px;
-    border:none;
-   }
-   #Sizes{
-    padding: 10px 80px;
-    font-size: 20px;
-    border:none;
-   }
-   #brand{
-    padding: 10px 80px;
-    font-size: 20px;
-    border:none;
-   }
-   #Design{
-    padding: 10px 80px;
-    font-size: 20px;
-    border:none;
-   }
-option{
-    font-size: 18px;
+
 }
-select{
-    font-size: 18px;
+
+#cartdiv img {
+  width: 100%;
+  border-radius: 5px;
+  cursor: pointer;
+
+
+
+
 }
+
+#cartdiv button {
+  padding: 6px 30px;
+
+  background-color: rgb(112, 198, 238);
+  border: none;
+  border-radius: 2px;
+
+}
+
+.AddtoCart {
+  text-decoration: none;
+  color: black;
+
+}
+
+#cartdiv button:hover {
+  cursor: pointer;
+  background-color: rgb(159, 184, 190);
+}
+
+#cartdiv div {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transition: 0.4s ease-out;
+
+}
+
+.parentcart {
+  padding: 10px;
+  background-color: white;
+  cursor: pointer;
+}
+
+/* cart Section CSS End here */
+
+#Category {
+  padding: 10px 80px;
+  font-size: 19px;
+  border: none;
+}
+
+#Size {
+  padding: 10px 80px;
+  font-size: 20px;
+  border: none;
+}
+
+#Sizes {
+  padding: 10px 80px;
+  font-size: 20px;
+  border: none;
+}
+
+#brand {
+  padding: 10px 80px;
+  font-size: 20px;
+  border: none;
+}
+
+#Design {
+  padding: 10px 80px;
+  font-size: 20px;
+  border: none;
+}
+
+option {
+  font-size: 18px;
+}
+
+select {
+  font-size: 18px;
+}
+
+
+/* medium media query */
+@media all and (min-width:500px) and (max-width:900px) {
+  #cartdiv {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+}
+
+/* small screen media query */
+@media all and (min-width:200px) and (max-width:499px) {
+  #cartdiv {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+}
+
+/* //----------------------------image flash effect here----------------------------------// */
+.parentcart:hover img {
+  opacity: 1;
+  -webkit-animation: flash 1.5s;
+  animation: flash 1.5s;
+}
+
+@-webkit-keyframes flash {
+  0% {
+    opacity: .4;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes flash {
+  0% {
+    opacity: .4;
+  }
+
+  100% {
+    opacity: 1;
+  }
+
   
- 
-   
-   
+}
+.parentcart figure img{
+  -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.parentcart figure:hover img{
+  -webkit-transform: scale(.5);
+	transform: scale(1.3);
+}
+
+
+/* //----------------------------image flash effect End here----------------------------------// */

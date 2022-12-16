@@ -25,13 +25,13 @@ function display(data) {
         return `
         <div class="parentcart">
        
-    <img src="${item.img}" alt="">
+  <figure><img src="${item.img}" alt=""></figure>
    
-  
+    <p id="fashiontrend"> FashionTrend</p>
     <h4><strong>${item.title}</strong></h4>
-    <p>₹${item.price}</p>
-     <p>${item.description}</p>
-     <button id="cart">Add to Cart</button>
+    <p><b>₹${item.price}</b></p>
+     <p class="description">${item.description}</p>
+     <button id="cart"> <b> <a class="AddtoCart" href="#"  > Add to Cart </a> </b> </button>
   
 </div>
        
