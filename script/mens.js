@@ -1,7 +1,7 @@
 
 let Renderdiv = document.getElementById("cartdiv")
 let bag = []
-
+let count = 0;
 
 
 
@@ -19,18 +19,19 @@ getdata().then((data) => {
 
 
 function display(data) {
+    count = 0;
     let responsedata = data.map((item) => {
-
+     count++
         return `
         <div class="parentcart">
  
     <img src="${item.img}" alt="">
   
-  
+     <p id="fashiontrend"> FashionTrend</p>
     <h4><strong>${item.title}</strong></h4>
-    <p>  ₹${item.price} </p>
-     <p>${item.description}</p>
-     <button id="cart">Add to Cart</button>
+    <p> <b>₹${item.price}</b></p>
+     <p class="description">${item.description}</p>
+     <button id="cart"> <b> <a class="AddtoCart"> Add to Cart </a> </b> </button>
   
 </div>
        
@@ -39,7 +40,7 @@ function display(data) {
 
     })
     Renderdiv.innerHTML = responsedata.join("")
-   
+    document.getElementById("count").innerText = `(${count})`
 }
 
 
