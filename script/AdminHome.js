@@ -71,7 +71,7 @@ let deleteURL="";
 let get_men_btn =document.querySelector("#get-men-btn");
 get_men_btn.addEventListener("click",(event)=>{
     let url="http://localhost:3000/manproduct";
-    deleteURL="http://localhost:3000/manproduct";
+    //deleteURL="http://localhost:3000/manproduct";
     getProductsFunction(url);
 })
 
@@ -82,18 +82,21 @@ get_women_btn.addEventListener("click",(event)=>{
 })
 
 
-async function getProductsFunction(url){
+async function getProductsFunction(url,data_perpage=8,page_number=1){
     try {
-        let get_all_data=await fetch(url,{
+        let get_all_data=await fetch(`${url}?_limit=${data_perpage}&_page=${page_number}`,{
             method:"GET",
             headers:{
                 "Content-Type":"application/json"
             }
         })
         if(get_all_data.ok){
+            let total_data_count=get_all_data.headers.get("x-total-count");
+            let total_pages=Math.ceil(total_data_count/data_perpage);
             alert("all products are fetched successfully");
             let all_data=await get_all_data.json();
             renderDataFunction(all_data,url);
+            renderPaginationButtons(total_pages,url);
         }
     } catch (error) {
         alert(error);
@@ -148,3 +151,39 @@ async function deleteProductFunction(delete_id,url){
         alert(error);
     }
 }
+
+
+
+//Pagination part
+let paginationWrapper=document.querySelector("#pagination-wrapper");
+function renderPaginationButtons(total_pages,url){
+    console.log(total_pages);
+    paginationWrapper.innerHTML = `
+      <div className="pagination-btn-list">
+      ${CreatePagButton(total_pages).join(" ")}
+      </div>
+    `;
+
+    //handle clicks of pagination buttons
+    let paginationButtons=document.querySelectorAll(".pagination-btn");
+    for(let paginationBtn of paginationButtons){
+        paginationBtn.addEventListener("click",(event)=>{
+            let page_number=event.target.dataset.id;
+            getProductsFunction(url,data_perpage=8,page_number);
+        })
+    }
+
+}
+
+function CreatePagButton(total_page){
+    let array=[];
+    for(let page=1;page<=total_page;page++){
+        array.push(getAsBtn(page,page))
+    }
+    return array;
+}
+
+function getAsBtn(text,dataId){
+    return`<button class="pagination-btn" ${dataId ? `data-id=${dataId}`:''}">${text}</button>`;
+}
+
