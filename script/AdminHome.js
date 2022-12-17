@@ -93,7 +93,7 @@ async function getProductsFunction(url,data_perpage=8,page_number=1){
         if(get_all_data.ok){
             let total_data_count=get_all_data.headers.get("x-total-count");
             let total_pages=Math.ceil(total_data_count/data_perpage);
-            alert("all products are fetched successfully");
+            //alert("all products are fetched successfully");
             let all_data=await get_all_data.json();
             renderDataFunction(all_data,url);
             renderPaginationButtons(total_pages,url);
@@ -131,7 +131,61 @@ function renderDataFunction(all_data,url){
         })
     }
 
+
+    let all_edit_btns=document.querySelectorAll(".edit");
+    for(let edit_btn of all_edit_btns){
+        edit_btn.addEventListener("click",(event)=>{
+            let edit_id=Number(event.path[1].children[2].innerText);
+            let editURL=`${url}/${edit_id}`;
+            for(let edit_data of all_data){
+                if(edit_data.id==edit_id){
+                    display_container.innerHTML=
+                    `<div class="outer-box">
+                    <div id="edit_title" contentEditable="true">${edit_data.title}</div>
+                    <div id="edit_img" contentEditable="true">${edit_data.img}</div>
+                    <div id="edit_des" contentEditable="true">${edit_data.description}</div>
+                    <div id="edit_price" contentEditable="true">${edit_data.price}</div>
+                    <button class="save">SAVE</button>
+                    </div></div>`; 
+                }
+            }
+
+            let save_btn=document.querySelector(".save");
+            save_btn.addEventListener("click",(eve)=>{
+                let edit_title=document.querySelector("#edit_title").innerText;
+                let edit_img=document.querySelector("#edit_img").innerText;
+                let edit_des=document.querySelector("#edit_des").innerText;
+                let edit_price=document.querySelector("#edit_price").innerText;
+
+                EditRequest(url,edit_id,edit_title,edit_img,edit_des,edit_price);
+            })
+
+        })
+    }
 }
+
+async function EditRequest(url,id,edit_title,edit_img,edit_des,edit_price){
+	try {
+		
+		let toggle_request = await fetch(`${url}/${id}`,{
+            method : "PATCH",
+            headers : {
+				"Content-Type" : "application/json"
+            },
+			body : JSON.stringify({["title"]:edit_title},{["img"]:edit_img},{["description"]:edit_des},{["price"]:edit_price})
+        })
+
+		
+		if(toggle_request.ok){
+
+		}
+	} catch (error) {
+		alert("You are not allowed to Toggle it.");	
+	}
+}
+
+
+
 
 //Delete a Product part2
 async function deleteProductFunction(delete_id,url){
@@ -172,6 +226,7 @@ function renderPaginationButtons(total_pages,url){
             getProductsFunction(url,data_perpage=8,page_number);
         })
     }
+    
 
 }
 

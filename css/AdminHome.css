@@ -122,3 +122,54 @@
     background-color: rgb(186, 98, 98);
 }
 
+#pagination-wrapper{
+    text-align: center;
+}
+
+.pagination-btn{
+    padding:5px 20px;
+    font-size: 16px;
+    border:none;
+    background-color: rgb(133, 8, 8);
+    color:white;
+    /* border-radius: 5px; */
+}
+
+.pagination-btn:hover{
+    background-color:rgb(131, 131, 131);
+    cursor: pointer;
+}
+
+
+.outer-box{
+    width:200%;
+    height:100%;
+    /* border:3px solid violet; */
+    margin:auto;
+    background-color: rgb(204, 226, 244);
+}
+.outer-box>div{
+    font-size: 20px;
+    padding:20px 0px;
+}
+
+.save{
+    font-size: 20px;
+    border:none;
+    background-color: rgb(133, 8, 8);
+    color:white;
+    padding:8px 30px;
+    margin: 20px 0px;
+}
+.save:hover{
+    cursor: pointer;
+    background-color: rgb(186, 98, 98);
+}
+
+.outer-box>div:nth-child(1),.outer-box>div:nth-child(3){
+    background-color: rgb(204, 226, 244);
+}
+
+.outer-box>div:nth-child(2),.outer-box>div:nth-child(4){
+    background-color:rgb(244, 236, 224);
+}
