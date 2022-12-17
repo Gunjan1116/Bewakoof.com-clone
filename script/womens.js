@@ -95,17 +95,14 @@ async function sortHTL() {
   async function getdata1() {
     let newdata = await fetch("http://localhost:3000/Womensproduct");
     let product = await newdata.json();
-  
     return product
 }
 
 getdata1().then((data) => {
     bag = data
-    
     let filterproduct = document.getElementById("Category")
     filterproduct.addEventListener("change",function(){
-     
-      let filtername =filterproduct.value
+        let filtername =filterproduct.value
        if(filtername=="Category"){
         location.reload();
         return;
