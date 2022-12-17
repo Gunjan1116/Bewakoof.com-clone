@@ -14,10 +14,11 @@ async function getdata() {
 }
 
 getdata().then((data) => {
+    bag = data;
     display(data)
 })
 
-
+// --------------------------------Cart Rendering function start here--------------------------------------------//
 function display(data) {
     count = 0;
     let responsedata = data.map((item) => {
@@ -25,7 +26,7 @@ function display(data) {
         return `
         <div class="parentcart">
  
-    <img src="${item.img}" alt="">
+   <figure> <img src="${item.img}" alt=""> </figure>
   
      <p id="fashiontrend"> FashionTrend</p>
     <h4><strong>${item.title}</strong></h4>
@@ -42,76 +43,78 @@ function display(data) {
     Renderdiv.innerHTML = responsedata.join("")
     document.getElementById("count").innerText = `(${count})`
 }
+// --------------------------------Cart Rendering function start here--------------------------------------------//
 
 
-
-// price wise sorting data satrt here
-async function sortHTL() {
-
-    try {
-
-        let sortData = await getdata();
-        sortData.sort((a, b) => {
-            return b.price - a.price;
-        })
-        return sortData;
-    } catch (error) {
-        console.log("something wrong in APi");
-    }
-    // console.log(sortData)
-}
-
-sortHTL().then((data) =>
-    bag = data
-);
+// <-------------------------------price wise sorting data start here------------------------------------------->
 
 
-function handleSort() {
-    let pricesortdata = document.getElementById("Size").value;
-
-    if (pricesortdata == "LTH") {
-        bag.sort((a, b) => a.price - b.price)
-
-
-    } else if (pricesortdata == "HTL") {
-        bag.sort((a, b) => b.price - a.price)
-
-    } else if (pricesortdata == "Price") {
-        location.reload();
-    }
-  
-    display(bag)
-
-
-}
-
-// Price wise sorting data end here
-
-async function getdata1() {
-    let newdata = await fetch("http://localhost:3000/manproduct");
-    let product = await newdata.json();
-  
-    return product
-}
-
-
-
-getdata1().then((data) => {
-    bag = data
+document.getElementById("Size").addEventListener("change",function(){
+    PriceRenderdata(bag);
+  });
+  function PriceRenderdata(data){
+    let select;
+    let enter=document.getElementById("Size").value;
+    if(enter=="Price"){
+        location.reload()
     
-    let filterproduct = document.getElementById("Category")
-    filterproduct.addEventListener("change",function(){
-        let filtername = document.getElementById("Category").value
+    }else if(enter=="LTH"){
+      select=data.sort((a,b)=>{
+        return a.price-b.price;
+      })
+    }else if(enter=="HTL"){
+      select=data.sort((a,b)=>{
+        return b.price-a.price;
+      })
+    }
+    display(select);
+  }
 
-        let fdata = bag.filter((ele)=>{
-           
-            return ele.title === filtername
-        })
-        display(fdata)
+// <-------------------------------price wise sorting data end here------------------------------------------->
+
+
+// <-------------------------------title wise product filter Section start------------------------------------------->
+
+
+
+document.getElementById("Category").addEventListener("change",filterProduct);
+function filterProduct(){
+  let search;
+  let given=document.getElementById("Category").value;
+  if(given=="category"){
+    display(bag);
+    return;
+  }
+  search=bag.filter((elem)=>{
+    return elem.title==given;
+  })
+  display(search);
+  document.getElementById("Size").addEventListener("change",function(){
+    PriceRenderdata(search);
+});
+}
+// <-------------------------------title wise product filter Section start------------------------------------------->
+
+
+// ------------------------------- Search functionality -------------------------------//
+
+
+  
+document.getElementById("search").addEventListener("input",()=>{
+  
+    let searchdata = document.getElementById("search").value
+  
+    let newData = bag.filter(function(elem){
+        return elem.title.toLowerCase().includes(searchdata.toLowerCase())
     })
+   display(newData)
+   
+})  
     
 
-})
+
+
+
 
 
 
