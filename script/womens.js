@@ -90,6 +90,8 @@ async function sortHTL() {
   }
 
   // Sort functionality End here ************************************
+
+
   async function getdata1() {
     let newdata = await fetch("http://localhost:3000/Womensproduct");
     let product = await newdata.json();
@@ -97,21 +99,37 @@ async function sortHTL() {
     return product
 }
 
-
-
 getdata1().then((data) => {
     bag = data
     
     let filterproduct = document.getElementById("Category")
     filterproduct.addEventListener("change",function(){
-        let filtername = document.getElementById("Category").value
-       
+     
+      let filtername =filterproduct.value
+       if(filtername=="Category"){
+        location.reload();
+        return;
+       }
         let fdata = bag.filter((ele)=>{
            
             return ele.title === filtername
         })
         display(fdata)
+       
     })
+    
+    // ------------------------------- Search functionality -------------------------------//
+
+document.getElementById("search").addEventListener("input",()=>{
+  
+  let searchdata = document.getElementById("search").value
+
+  let newData = bag.filter(function(elem){
+      return elem.title.toLowerCase().includes(searchdata.toLowerCase())
+  })
+ display(newData)
+ 
+})  
     
 
 })
