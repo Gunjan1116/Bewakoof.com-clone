@@ -554,5 +554,21 @@
       "landmark": "sss",
       "id": 5
     }
+  ],
+  "UserCardDetails": [
+    {
+      "CardNumber": 123456,
+      "Expiry Date": "12/22",
+      "CVV": 123,
+      "CardName": "Rakesh kumar",
+      "id": 1
+    },
+    {
+      "CardNumber": "9087654",
+      "Expiry Date": "11/22",
+      "CVV": "345",
+      "CardName": "Nitin Kumar",
+      "id": 2
+    }
   ]
 }
