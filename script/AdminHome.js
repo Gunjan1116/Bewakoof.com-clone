@@ -105,6 +105,7 @@ async function getProductsFunction(url,data_perpage=8,page_number=1){
 
 
 function renderDataFunction(all_data,url){
+    document.querySelector("#display-address-container").innerHTML=null;
     let display_container=document.querySelector("#display-container");
     display_container.innerHTML=null;
     let newData=all_data.map((item)=>{
@@ -285,6 +286,7 @@ function renderPaginationButtons(total_pages,url){
         paginationBtn.addEventListener("click",(event)=>{
             let page_number=event.target.dataset.id;
             getProductsFunction(url,data_perpage=8,page_number);
+            getAddressFunction(url,data_perpage=4,page_number);
         })
     }
     
@@ -315,7 +317,7 @@ get_address_btn.addEventListener("click",(event)=>{
 })
 
 
-async function getAddressFunction(url,data_perpage=8,page_number=1){
+async function getAddressFunction(url,data_perpage=4,page_number=1){
     try {
         let get_all_data=await fetch(`${url}?_limit=${data_perpage}&_page=${page_number}`,{
             method:"GET",
@@ -340,20 +342,21 @@ async function getAddressFunction(url,data_perpage=8,page_number=1){
 
 
 function renderAddressDataFunction(all_data,url){
+    document.querySelector("#display-container").innerHTML=null;
     let display_container=document.querySelector("#display-address-container");
     display_container.innerHTML=null;
     let newData=all_data.map((item)=>{
         return`<div class="address-box">
         <p class="ad-line">${item.id}</p>
-        <p class="ad-line">${item.country}</p>
-        <p class="ad-line">${item.firstname}</p>
-        <p class="ad-line">${item.mobileNo}</p>
-        <p class="ad-line">${item.pinCode}</p>
-        <p class="ad-line">${item.city}</p>
-        <p class="ad-line">${item.state}</p>
-        <p class="ad-line">${item.flatNo}</p>
-        <p class="ad-line">${item.area}</p>
-        <p class="ad-line">${item.landmark}</p>
+        <p class="ad-line">Country:${item.country}</p>
+        <p class="ad-line">FullName:${item.firstname}</p>
+        <p class="ad-line">MobileNumber:${item.mobileNo}</p>
+        <p class="ad-line">PinCode:${item.pinCode}</p>
+        <p class="ad-line">City:${item.city}</p>
+        <p class="ad-line">State:${item.state}</p>
+        <p class="ad-line">FlatNumber:${item.flatNo}</p>
+        <p class="ad-line">Area:${item.area}</p>
+        <p class="ad-line">LandMark:${item.landmark}</p>
         <button class="delete box-btn">DELETE</button>
                 </div>`;
     })
@@ -363,8 +366,8 @@ function renderAddressDataFunction(all_data,url){
     let all_delete_btns=document.querySelectorAll(".delete");
     for(let delete_btn of all_delete_btns){
         delete_btn.addEventListener("click",(event)=>{
-            console.log(event);
-            let delete_id=Number(event.path[1].children[2].innerText);
+            let delete_id=Number(event.path[1].children[0].innerText);
+            console.log(delete_id);
             deleteProductFunction(delete_id,url);
         })
     }
