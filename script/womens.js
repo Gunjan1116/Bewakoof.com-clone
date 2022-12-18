@@ -61,6 +61,7 @@ function display(data) {
         let out = await res.json();
         arr.push(out)
        localStorage.setItem("cartData",JSON.stringify(arr))
+       alert("Product added in cart section")
       } catch (error) {
      alert("something went wrong")   
       }
