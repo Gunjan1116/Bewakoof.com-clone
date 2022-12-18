@@ -546,6 +546,18 @@
       "area": "ssss",
       "landmark": "sss",
       "id": 5
+    },
+    {
+      "country": "India",
+      "firstname": "mukesh",
+      "mobileNo": "123456789",
+      "pinCode": "123456",
+      "city": "maharastra",
+      "state": "maharastra",
+      "flatNo": "1",
+      "area": "Railway Station",
+      "landmark": "Bus Stand",
+      "id": 6
     }
   ],
   "UserCardDetails": [

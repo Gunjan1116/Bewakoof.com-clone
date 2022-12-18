@@ -17,6 +17,8 @@ input_form_btn.addEventListener("submit",async (e)=>{
         if(res.ok){
             let out=await res.json();
             console.log(out);
+            alert("Address added sucessfully!!")
+            window.location.href="../html/payment.html";
         }
     } catch (error) {
         console.log(error);
