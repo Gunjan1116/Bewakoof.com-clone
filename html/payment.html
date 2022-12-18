@@ -130,7 +130,31 @@
 </div>
 
 <!-- body section of payment page -->
- 
+ <div id="bodyCont">
+    <div id="topBody">
+        <div><h3>Choose your payment method</h3></div>
+        <div><select id="pay">
+            <option value="">Payment Method</option>
+            <option value="card">Debit/Credit Card</option>
+            <option value="wallet">Wallet</option>
+            <option value="upi">UPI</option>
+            <option value="net">Net banking</option>
+            <option value="cash">Cash On Delivery</option>
+        </select></div>
+    </div>
+    <div id="midBody">
+        <div id="addBody">
+            <!-- will be appended from js page of payment -->
+            <input id="first" type="number" placeholder="Card Number"/><br/>
+            <input id="second" placeholder="Valid through(MM/YY)"/><br/>
+            <input id="third" type="number" placeholder="CVV"/><br/>
+            <input id="fouth" type="text" placeholder="Name On Card"/><br/>
+            <p>This transaction you make is totally secure. <br/>We don't save your CVV number<p/>
+            <button id="btn">PAY NOW</button>
+        </div>
+        
+    </div>
+ </div> 
 
 <!-- footer part of payment page -->
 <div id="footer">
@@ -411,3 +435,4 @@
 </div>
 </body>
 </html>
+<script src="../script/payment.js"></script>
