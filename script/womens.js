@@ -15,6 +15,7 @@ async function getdata() {
 
 getdata().then((data) => {
     display(data)
+    bag = data;
 })
 
 
@@ -22,6 +23,7 @@ function display(data) {
   count=0
     let responsedata = data.map((item) => {
    count++
+  // console.log(item.id)
         return `
         <div class="parentcart">
        
@@ -31,7 +33,7 @@ function display(data) {
     <h4><strong>${item.title}</strong></h4>
     <p><b>₹${item.price}</b></p>
      <p class="description">${item.description}</p>
-     <button id="cart"> <b> <a class="AddtoCart" href="#"  > Add to Cart </a> </b> </button>
+     <button data-id=${item.id} class="cart"> <b>  Add to Cart  </b> </button>
   
 </div>
        
@@ -42,13 +44,18 @@ function display(data) {
   Renderdiv.innerHTML = responsedata.join("")
   document.getElementById("count").innerText = `(${count})`
 
+  let btn = document.querySelectorAll(".cart");
+  // console.log(btn)
+ for(let bt of btn){
+  bt.addEventListener("click", (e)=>{
+    console.log(e.target.dataset.id);
+    
+  })
+ }
+
+
+
 }
-
-
-
-
-
-
 
 // Sort functionality Start here ************************************
 async function sortHTL() {
@@ -117,24 +124,18 @@ getdata1().then((data) => {
     
     // ------------------------------- Search functionality -------------------------------//
 
-document.getElementById("search").addEventListener("input",()=>{
+// document.getElementById("search").addEventListener("input",()=>{
   
-  let searchdata = document.getElementById("search").value
+//   let searchdata = document.getElementById("search").value
 
-  let newData = bag.filter(function(elem){
-      return elem.title.toLowerCase().includes(searchdata.toLowerCase())
-  })
- display(newData)
+//   let newData = bag.filter(function(elem){
+//       return elem.title.toLowerCase().includes(searchdata.toLowerCase())
+//   })
+//  display(newData)
  
-})  
+// })  
     
+ })
 
-})
+// ------------------------------add to cart function----------------------//
 
-
-    
-
-
-
-
- 
