@@ -3,7 +3,7 @@ let Renderdiv = document.getElementById("cartdiv")
 let count=0;
 
 let bag = []
-
+let arr = JSON.parse(localStorage.getItem("cartData")) || []
 
 
 async function getdata() {
@@ -46,12 +46,26 @@ function display(data) {
 
   let btn = document.querySelectorAll(".cart");
   // console.log(btn)
- for(let bt of btn){
-  bt.addEventListener("click", (e)=>{
-    console.log(e.target.dataset.id);
-    
-  })
- }
+  for(let elem of btn){
+    elem.addEventListener("click",async ()=>{
+      // console.log(elem.dataset.id)
+      let id=elem.dataset.id;
+      try {
+        let res=await fetch(`http://localhost:3000/Womensproduct/${id}`,{
+          method:"GET",
+          headers:{
+            "Content-Type": "application/json"
+          }
+
+        })
+        let out = await res.json();
+        arr.push(out)
+       localStorage.setItem("cartData",JSON.stringify(arr))
+      } catch (error) {
+     alert("something went wrong")   
+      }
+    })
+  }
 
 
 
