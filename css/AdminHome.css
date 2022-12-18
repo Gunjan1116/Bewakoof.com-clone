@@ -6,7 +6,7 @@
 #main-container{
     width:100%;
     height:auto;
-    border:1px solid red;
+    /* border:4px solid red; */
     margin: auto;
     display: flex;
 }
@@ -63,14 +63,14 @@
     height: auto;
     width:65%;
     margin: auto;
-    border:2px solid rgb(24, 255, 24);
+    /* border:5px solid rgb(24, 255, 24); */
 }
 
 #display-container{
     height: auto;
     width:95%;
     margin: auto;
-    border:1px solid blue;
+    /* border:6px solid blue; */
     display: grid;
     grid-template-columns: repeat(4,1fr);
     grid-template-rows: auto;

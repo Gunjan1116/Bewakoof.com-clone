@@ -1,17 +1,10 @@
 {
   "manproduct": [
     {
-      "title": "kjsbdjkas",
-      "img": "https://images.bewakoof.com/t640/men-s-black-satoru-graphic-printed-oversized-t-shirt-558198-1669998488-1.jpg",
-      "description": "Men's Black Satoru Graphic Printed Oversized T-shirt-Front Bewakoof",
-      "price": 499,
-      "id": 1
-    },
-    {
       "title": "Tshirt",
       "img": "https://images.bewakoof.com/t640/men-s-black-king-of-wakanda-graphic-printed-oversized-t-shirt-558206-1669998215-1.jpg",
       "description": "Men's Black King Of Wakanda Graphic Printed Oversized T-shirt-Front Bewakoof",
-      "price": 499,
+      "price": "499",
       "id": 2
     },
     {

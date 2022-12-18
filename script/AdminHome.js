@@ -157,14 +157,17 @@ function renderDataFunction(all_data,url){
                 let edit_des=document.querySelector("#edit_des").innerText;
                 let edit_price=document.querySelector("#edit_price").innerText;
 
-                EditRequest(url,edit_id,edit_title,edit_img,edit_des,edit_price);
+                EditRequestTitle(url,edit_id,edit_title);
+                EditRequestImage(url,edit_id,edit_img);
+                EditRequestDescription(url,edit_id,edit_des);
+                EditRequestPrice(url,edit_id,edit_price);
             })
 
         })
     }
 }
 
-async function EditRequest(url,id,edit_title,edit_img,edit_des,edit_price){
+async function EditRequestTitle(url,id,edit_title){
 	try {
 		
 		let toggle_request = await fetch(`${url}/${id}`,{
@@ -172,10 +175,8 @@ async function EditRequest(url,id,edit_title,edit_img,edit_des,edit_price){
             headers : {
 				"Content-Type" : "application/json"
             },
-			body : JSON.stringify({["title"]:edit_title},{["img"]:edit_img},{["description"]:edit_des},{["price"]:edit_price})
+			body : JSON.stringify({["title"]:edit_title})
         })
-
-		
 		if(toggle_request.ok){
 
 		}
@@ -183,6 +184,66 @@ async function EditRequest(url,id,edit_title,edit_img,edit_des,edit_price){
 		alert("You are not allowed to Toggle it.");	
 	}
 }
+
+
+async function EditRequestImage(url,id,edit_img){
+	try {
+		
+		let toggle_request = await fetch(`${url}/${id}`,{
+            method : "PATCH",
+            headers : {
+				"Content-Type" : "application/json"
+            },
+			body : JSON.stringify({["img"]:edit_img})
+        })
+		if(toggle_request.ok){
+
+		}
+	} catch (error) {
+		alert("You are not allowed to Toggle it.");	
+	}
+}
+
+
+async function EditRequestDescription(url,id,edit_des){
+	try {
+		
+		let toggle_request = await fetch(`${url}/${id}`,{
+            method : "PATCH",
+            headers : {
+				"Content-Type" : "application/json"
+            },
+			body : JSON.stringify({["description"]:edit_des})
+        })
+		if(toggle_request.ok){
+
+		}
+	} catch (error) {
+		alert("You are not allowed to Toggle it.");	
+	}
+}
+
+
+async function EditRequestPrice(url,id,edit_price){
+	try {
+		
+		let toggle_request = await fetch(`${url}/${id}`,{
+            method : "PATCH",
+            headers : {
+				"Content-Type" : "application/json"
+            },
+			body : JSON.stringify({["price"]:edit_price})
+        })
+		if(toggle_request.ok){
+
+		}
+	} catch (error) {
+		alert("You are not allowed to Toggle it.");	
+	}
+}
+
+
+
 
 
 
@@ -242,3 +303,70 @@ function getAsBtn(text,dataId){
     return`<button class="pagination-btn" ${dataId ? `data-id=${dataId}`:''}">${text}</button>`;
 }
 
+
+
+
+
+//the whole fetch,render and delete parts of address data
+let get_address_btn =document.querySelector("#get-address-btn");
+get_address_btn.addEventListener("click",(event)=>{
+    let url="http://localhost:3000/userAddressDetails";
+    getAddressFunction(url);
+})
+
+
+async function getAddressFunction(url,data_perpage=8,page_number=1){
+    try {
+        let get_all_data=await fetch(`${url}?_limit=${data_perpage}&_page=${page_number}`,{
+            method:"GET",
+            headers:{
+                "Content-Type":"application/json"
+            }
+        })
+        if(get_all_data.ok){
+            let total_data_count=get_all_data.headers.get("x-total-count");
+            let total_pages=Math.ceil(total_data_count/data_perpage);
+            //alert("all products are fetched successfully");
+            let all_data=await get_all_data.json();
+          
+            renderAddressDataFunction(all_data,url);
+            renderPaginationButtons(total_pages,url);
+        }
+    } catch (error) {
+        alert(error);
+    }
+}
+
+
+
+function renderAddressDataFunction(all_data,url){
+    let display_container=document.querySelector("#display-address-container");
+    display_container.innerHTML=null;
+    let newData=all_data.map((item)=>{
+        return`<div class="address-box">
+        <p class="ad-line">${item.id}</p>
+        <p class="ad-line">${item.country}</p>
+        <p class="ad-line">${item.firstname}</p>
+        <p class="ad-line">${item.mobileNo}</p>
+        <p class="ad-line">${item.pinCode}</p>
+        <p class="ad-line">${item.city}</p>
+        <p class="ad-line">${item.state}</p>
+        <p class="ad-line">${item.flatNo}</p>
+        <p class="ad-line">${item.area}</p>
+        <p class="ad-line">${item.landmark}</p>
+        <button class="delete box-btn">DELETE</button>
+                </div>`;
+    })
+    display_container.innerHTML=newData.join("");
+
+    //Delete a product part1
+    let all_delete_btns=document.querySelectorAll(".delete");
+    for(let delete_btn of all_delete_btns){
+        delete_btn.addEventListener("click",(event)=>{
+            console.log(event);
+            let delete_id=Number(event.path[1].children[2].innerText);
+            deleteProductFunction(delete_id,url);
+        })
+    }
+
+}
