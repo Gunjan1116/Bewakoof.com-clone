@@ -488,18 +488,6 @@
   ],
   "userAddressDetails": [
     {
-      "id": 1,
-      "countryName": "India",
-      "fullName": "Nikhil Kumar",
-      "mobileNo": 9999999999,
-      "pinCode": 123456,
-      "city": "jamshedpur",
-      "state": "jharkhand",
-      "flatNo": 12,
-      "area": "Manago",
-      "landmark": "Near bus stand"
-    },
-    {
       "country": "India",
       "firstname": "Rakesh Kumar",
       "mobileNo": "2222222222",
