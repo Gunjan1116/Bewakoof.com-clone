@@ -44,13 +44,13 @@ function display(data) {
     document.getElementById("count").innerText = `(${count})`
 
     let btn = document.querySelectorAll(".cart");
-    // console.log(btn)
+    
     for(let elem of btn){
       elem.addEventListener("click",async ()=>{
         // console.log(elem.dataset.id)
         let id=elem.dataset.id;
         try {
-          let res=await fetch(`http://localhost:3000/Womensproduct/${id}`,{
+          let res=await fetch(`http://localhost:3000/manproduct/${id}`,{
             method:"GET",
             headers:{
               "Content-Type": "application/json"
@@ -58,8 +58,11 @@ function display(data) {
   
           })
           let out = await res.json();
+         
           arr.push(out)
+        
          localStorage.setItem("cartData",JSON.stringify(arr))
+         alert("Product added in cart section")
         } catch (error) {
        alert("something went wrong")   
         }
