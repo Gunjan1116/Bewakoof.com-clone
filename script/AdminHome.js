@@ -286,7 +286,7 @@ function renderPaginationButtons(total_pages,url){
         paginationBtn.addEventListener("click",(event)=>{
             let page_number=event.target.dataset.id;
             getProductsFunction(url,data_perpage=8,page_number);
-            getAddressFunction(url,data_perpage=4,page_number);
+            // getAddressFunction(url,data_perpage=4,page_number);
         })
     }
     
@@ -332,7 +332,7 @@ async function getAddressFunction(url,data_perpage=4,page_number=1){
             let all_data=await get_all_data.json();
           
             renderAddressDataFunction(all_data,url);
-            renderPaginationButtons(total_pages,url);
+            renderPageButtons(total_pages,url);
         }
     } catch (error) {
         alert(error);
@@ -373,3 +373,40 @@ function renderAddressDataFunction(all_data,url){
     }
 
 }
+
+
+
+
+let pageWrapper=document.querySelector("#pagination-wrapper");
+function renderPageButtons(total_pages,url){
+    console.log(total_pages);
+    paginationWrapper.innerHTML = `
+      <div className="pagination-btn-list">
+      ${CreatePageButton(total_pages).join(" ")}
+      </div>
+    `;
+
+    //handle clicks of pagination buttons
+    let paginationButtons=document.querySelectorAll(".pagination-btn");
+    for(let paginationBtn of paginationButtons){
+        paginationBtn.addEventListener("click",(event)=>{
+            let page_number=event.target.dataset.id;
+            getAddressFunction(url,data_perpage=4,page_number);
+        })
+    }
+    
+
+}
+
+function CreatePageButton(total_page){
+    let array=[];
+    for(let page=1;page<=total_page;page++){
+        array.push(GetAsBtn(page,page))
+    }
+    return array;
+}
+
+function GetAsBtn(text,dataId){
+    return`<button class="pagination-btn" ${dataId ? `data-id=${dataId}`:''}">${text}</button>`;
+}
+
