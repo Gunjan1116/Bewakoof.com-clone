@@ -57,7 +57,7 @@ document.getElementById("Size").addEventListener("change",function(){
     let enter=document.getElementById("Size").value;
     if(enter=="Price"){
         location.reload()
-    
+      return;
     }else if(enter=="LTH"){
       select=data.sort((a,b)=>{
         return a.price-b.price;
@@ -110,18 +110,3 @@ document.getElementById("search").addEventListener("input",()=>{
    display(newData)
    
 })  
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
